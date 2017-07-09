@@ -1,0 +1,13 @@
+#signupModal .form-group,
+#loginModal .form-group {
+	margin-bottom: 10px;
+}
+
+.form-control-feedback {
+	top: 35px;
+}
+
+#login_form .modal-body p.text-right label {
+	font-weight: 400;
+	font-size: 12px;
+}

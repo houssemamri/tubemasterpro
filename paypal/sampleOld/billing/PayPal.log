@@ -1,0 +1,654 @@
+[08-01-2015 07:13:43] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:13:43] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:13:43] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:13:43] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:13:43] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331351142077322254498
+[08-01-2015 07:13:43] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:13:44] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-9UM897728K662430MZSXPABQ","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-30J66421RG1963303ZSXPABQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-24U78467BK216284BZSXPABQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:13:44.454Z","update_time":"2015-01-09T03:13:44.454Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-9UM897728K662430MZSXPABQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:20:52] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:20:52] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:20:52] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:20:52] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:20:52] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331350142077365254410
+[08-01-2015 07:20:52] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:20:54] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-334334113J760863CZS2X6VY","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-0JR17186MF002910BZS2X6WA","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-4G00768836194301YZS2X6WA","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:20:54.359Z","update_time":"2015-01-09T03:20:54.359Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-334334113J760863CZS2X6VY","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:21:27] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:21:27] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:21:27] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:21:27] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:21:27] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 2130706433129614207736873391
+[08-01-2015 07:21:27] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:21:29] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-0MM95484245690820ZS3AMMQ","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-7GY39619UK5167601ZS3AMMY","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-8HU14489VE0533626ZS3AMMY","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:21:28.882Z","update_time":"2015-01-09T03:21:28.882Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-0MM95484245690820ZS3AMMQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:21:29] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-0MM95484245690820ZS3AMMQ
+[08-01-2015 07:21:29] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:21:29] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:21:29] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:21:29] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 07:21:30] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-0MM95484245690820ZS3AMMQ","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-7GY39619UK5167601ZS3AMMY","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-8HU14489VE0533626ZS3AMMY","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:21:28.882Z","update_time":"2015-01-09T03:21:28.882Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-0MM95484245690820ZS3AMMQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:21:43] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:21:43] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:21:43] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:21:43] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:21:43] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331298142077370324471
+[08-01-2015 07:21:43] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:21:44] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-62A30744YJ9715428ZS3EGWQ","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-5J920794DP340002DZS3EGWQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-482463811U9179052ZS3EGWQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:21:44.538Z","update_time":"2015-01-09T03:21:44.538Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-62A30744YJ9715428ZS3EGWQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:21:44] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-62A30744YJ9715428ZS3EGWQ
+[08-01-2015 07:21:44] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:21:44] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:21:44] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:21:44] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 07:21:47] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 07:21:47] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-62A30744YJ9715428ZS3EGWQ
+[08-01-2015 07:21:47] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:21:47] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:21:47] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:21:47] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 07:21:49] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-62A30744YJ9715428ZS3EGWQ","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-5J920794DP340002DZS3EGWQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-482463811U9179052ZS3EGWQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:21:44.538Z","update_time":"2015-01-09T03:21:47.472Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-62A30744YJ9715428ZS3EGWQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:21:49] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-agreements/
+[08-01-2015 07:21:49] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:21:49] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:21:49] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:21:49] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331298142077370324471
+[08-01-2015 07:21:49] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"Base Agreement","description":"Basic Agreement","start_date":"2015-06-17T9:45:04Z","plan":{"id":"P-62A30744YJ9715428ZS3EGWQ"},"payer":{"payment_method":"paypal"},"shipping_address":{"line1":"111 First Street","city":"Saratoga","state":"CA","postal_code":"95070","country_code":"US"}}
+
+[08-01-2015 07:21:51] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"Base Agreement","description":"Basic Agreement","plan":{"id":"P-62A30744YJ9715428ZS3EGWQ","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-5J920794DP340002DZS3EGWQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-482463811U9179052ZS3EGWQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"}},"links":[{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-6E6100492A109863W","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/EC-6E6100492A109863W/agreement-execute","rel":"execute","method":"POST"}],"start_date":"2015-06-17T9:45:04Z"}
+
+
+[08-01-2015 07:23:17] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:23:17] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:23:17] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:23:17] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:23:17] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331303142077379763486
+[08-01-2015 07:23:17] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:23:19] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-4B567465RD0883324ZS33J6A","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-5XC25699PF834441MZS33J6A","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-3RW19750HY0576540ZS33J6A","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:23:19.160Z","update_time":"2015-01-09T03:23:19.160Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-4B567465RD0883324ZS33J6A","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:23:28] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:23:28] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:23:28] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:23:28] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:23:28] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331307142077380835343
+[08-01-2015 07:23:28] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:23:30] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-85R12939895450135ZS357SQ","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-9B0500783E4168049ZS357SQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-9P905969WJ009104PZS357SQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:23:30.122Z","update_time":"2015-01-09T03:23:30.122Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-85R12939895450135ZS357SQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:23:30] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-85R12939895450135ZS357SQ
+[08-01-2015 07:23:30] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:23:30] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:23:30] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:23:30] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 07:23:31] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 07:23:31] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-85R12939895450135ZS357SQ
+[08-01-2015 07:23:31] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:23:31] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:23:31] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:23:31] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 07:23:33] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-85R12939895450135ZS357SQ","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-9B0500783E4168049ZS357SQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-9P905969WJ009104PZS357SQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:23:30.122Z","update_time":"2015-01-09T03:23:31.497Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-85R12939895450135ZS357SQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:26:54] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:26:54] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:26:54] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:26:54] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:26:54] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 2130706433137614207740141419
+[08-01-2015 07:26:54] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:26:56] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-58G93131TT804083RZS5QNHY","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-63V94921YV320645HZS5QNHY","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-8VR888222C757133YZS5QNHY","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:26:56.671Z","update_time":"2015-01-09T03:26:56.671Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-58G93131TT804083RZS5QNHY","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:26:56] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-58G93131TT804083RZS5QNHY
+[08-01-2015 07:26:56] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:26:56] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:26:56] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:26:56] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 07:26:58] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 07:26:58] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-58G93131TT804083RZS5QNHY
+[08-01-2015 07:26:58] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:26:58] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:26:58] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:26:58] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 07:27:01] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-58G93131TT804083RZS5QNHY","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-63V94921YV320645HZS5QNHY","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-8VR888222C757133YZS5QNHY","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:26:56.671Z","update_time":"2015-01-09T03:26:58.316Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-58G93131TT804083RZS5QNHY","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:27:01] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-agreements/
+[08-01-2015 07:27:01] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:27:01] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:27:01] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015.u3marl6xNUCZvbttYmMN-mt4SwdQqWlbQ74MvVGuOM
+[08-01-2015 07:27:01] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 2130706433137614207740141419
+[08-01-2015 07:27:01] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"Base Agreement","description":"Basic Agreement","start_date":"2015-06-17T9:45:04Z","plan":{"id":"P-58G93131TT804083RZS5QNHY"},"payer":{"payment_method":"paypal"},"shipping_address":{"line1":"111 First Street","city":"Saratoga","state":"CA","postal_code":"95070","country_code":"US"}}
+
+[08-01-2015 07:27:02] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"Base Agreement","description":"Basic Agreement","plan":{"id":"P-58G93131TT804083RZS5QNHY","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-63V94921YV320645HZS5QNHY","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-8VR888222C757133YZS5QNHY","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"}},"links":[{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-9XY754106F7899522","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/EC-9XY754106F7899522/agreement-execute","rel":"execute","method":"POST"}],"start_date":"2015-06-17T9:45:04Z"}
+
+
+[08-01-2015 07:45:26] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:45:26] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:45:26] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:45:26] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:45:26] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331296142077512623680
+[08-01-2015 07:45:26] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:45:28] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-6X68040022260304MZTF7ZEY","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-7WA80853L74846156ZTF7ZEY","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-1J60610762599620UZTF7ZEY","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:45:28.211Z","update_time":"2015-01-09T03:45:28.211Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-6X68040022260304MZTF7ZEY","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:46:51] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:46:51] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:46:51] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:46:51] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:46:51] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331298142077521118873
+[08-01-2015 07:46:51] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:47:06] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:47:06] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:47:06] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:47:06] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:47:06] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331298142077522621909
+[08-01-2015 07:47:06] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:47:13] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-5F088453JV3543054ZTGZCDY","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-1T266086TS5903739ZTGZCDY","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-7B161970T5529741RZTGZCDY","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:47:11.759Z","update_time":"2015-01-09T03:47:11.759Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-5F088453JV3543054ZTGZCDY","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:47:13] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-5F088453JV3543054ZTGZCDY
+[08-01-2015 07:47:13] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:47:13] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:47:13] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:47:13] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 07:47:17] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 07:47:17] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-5F088453JV3543054ZTGZCDY
+[08-01-2015 07:47:17] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:47:17] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:47:17] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:47:17] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 07:47:20] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-5F088453JV3543054ZTGZCDY","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-1T266086TS5903739ZTGZCDY","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-7B161970T5529741RZTGZCDY","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:47:11.759Z","update_time":"2015-01-09T03:47:16.069Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-5F088453JV3543054ZTGZCDY","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:49:03] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:49:03] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:49:03] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:49:03] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:49:03] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331376142077534364303
+[08-01-2015 07:49:03] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:49:05] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-6A470464AH609172MZTHUVEI","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-1TR562518U126742JZTHUVEI","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-85E775707H2602812ZTHUVEI","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:49:04.785Z","update_time":"2015-01-09T03:49:04.785Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-6A470464AH609172MZTHUVEI","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:49:12] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:49:12] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:49:12] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:49:12] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:49:12] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331352142077535216443
+[08-01-2015 07:49:12] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:49:15] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-39A19015AA495863CZTHXLLA","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-0T915265JB946093AZTHXLLA","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-62R09447R5234684DZTHXLLA","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:49:15.820Z","update_time":"2015-01-09T03:49:15.820Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-39A19015AA495863CZTHXLLA","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:49:25] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:49:25] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:49:25] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:49:25] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:49:25] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331306142077536548125
+[08-01-2015 07:49:25] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:49:31] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-7HX58041SU602982RZTH3B6I","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-15P93179P4518890AZTH3B6I","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-1A2496946J0033935ZTH3B6I","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:49:31.001Z","update_time":"2015-01-09T03:49:31.001Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-7HX58041SU602982RZTH3B6I","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:50:28] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:50:28] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:50:28] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:50:28] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:50:28] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331307142077542813563
+[08-01-2015 07:50:28] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:50:29] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-68N686269P437814WZTIJMOA","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-7J329333FW7357913ZTIJMOA","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-9FX170787D432344MZTIJMOA","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:50:29.688Z","update_time":"2015-01-09T03:50:29.688Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-68N686269P437814WZTIJMOA","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:52:19] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:52:19] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:52:19] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:52:19] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:52:19] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 2130706433129814207755397556
+[08-01-2015 07:52:19] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:52:21] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-6NF328759D120673DZTJET4Q","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-15380999JG099691NZTJET4Q","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-4CJ45788M9598020CZTJET4Q","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:52:21.234Z","update_time":"2015-01-09T03:52:21.234Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-6NF328759D120673DZTJET4Q","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:54:19] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:54:19] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:54:19] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:54:19] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:54:19] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331296142077565916490
+[08-01-2015 07:54:19] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:54:20] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-0GB56072BT5860848ZTKBWJI","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-6MW67213XA194443AZTKBWJI","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-6MR3165540268511UZTKBWJQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:54:20.325Z","update_time":"2015-01-09T03:54:20.325Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-0GB56072BT5860848ZTKBWJI","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:54:20] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-0GB56072BT5860848ZTKBWJI
+[08-01-2015 07:54:20] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:54:20] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:54:20] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:54:20] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 07:54:21] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 07:54:21] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-0GB56072BT5860848ZTKBWJI
+[08-01-2015 07:54:21] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:54:21] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:54:21] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:54:21] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 07:54:23] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-0GB56072BT5860848ZTKBWJI","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-6MW67213XA194443AZTKBWJI","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-6MR3165540268511UZTKBWJQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:54:20.325Z","update_time":"2015-01-09T03:54:21.796Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-0GB56072BT5860848ZTKBWJI","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:54:27] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:54:27] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:54:27] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:54:27] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:54:27] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331296142077566715246
+[08-01-2015 07:54:27] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:54:28] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-54T507656Y876403NZTKDWNQ","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-0SY01043T3992482CZTKDWNQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-8G047632YR537694RZTKDWNQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:54:28.534Z","update_time":"2015-01-09T03:54:28.534Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-54T507656Y876403NZTKDWNQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:54:28] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-54T507656Y876403NZTKDWNQ
+[08-01-2015 07:54:28] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:54:28] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:54:28] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:54:28] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 07:54:30] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 07:54:30] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-54T507656Y876403NZTKDWNQ
+[08-01-2015 07:54:30] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:54:30] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:54:30] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:54:30] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 07:54:32] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-54T507656Y876403NZTKDWNQ","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-0SY01043T3992482CZTKDWNQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-8G047632YR537694RZTKDWNQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:54:28.534Z","update_time":"2015-01-09T03:54:30.196Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-54T507656Y876403NZTKDWNQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:55:31] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:55:31] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:55:31] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:55:31] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:55:31] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331298142077573132397
+[08-01-2015 07:55:31] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:55:33] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-9Y3541051U5653333ZTKTQLI","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-7LP195462V837562GZTKTQLI","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-12274470EE190692UZTKTQLI","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:55:33.293Z","update_time":"2015-01-09T03:55:33.293Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-9Y3541051U5653333ZTKTQLI","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:55:33] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-9Y3541051U5653333ZTKTQLI
+[08-01-2015 07:55:33] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:55:33] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:55:33] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:55:33] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 07:55:35] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 07:55:35] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-2TV57262R7710405BZTJYELI
+[08-01-2015 07:55:35] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:55:35] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:55:35] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:55:35] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 07:55:36] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-2TV57262R7710405BZTJYELI","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-7KU88331V8742870XZTJYELI","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-9D207186DN929430NZTJYELI","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:53:41.165Z","update_time":"2015-01-09T03:53:41.165Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-2TV57262R7710405BZTJYELI","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:56:58] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:56:58] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:56:58] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:56:58] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:56:58] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331352142077581820511
+[08-01-2015 07:56:58] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:57:01] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-3HV97346FX791021YZTLIXSQ","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-1PB55995LD0872908ZTLIXSQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-56B77561R9231792WZTLIXSQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:57:00.234Z","update_time":"2015-01-09T03:57:00.234Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-3HV97346FX791021YZTLIXSQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:57:01] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-3HV97346FX791021YZTLIXSQ
+[08-01-2015 07:57:01] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:57:01] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:57:01] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:57:01] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 07:57:06] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 07:57:06] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-2TV57262R7710405BZTJYELI
+[08-01-2015 07:57:06] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:57:06] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:57:06] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:57:06] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 07:57:07] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-2TV57262R7710405BZTJYELI","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-7KU88331V8742870XZTJYELI","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-9D207186DN929430NZTJYELI","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:53:41.165Z","update_time":"2015-01-09T03:53:41.165Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-2TV57262R7710405BZTJYELI","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:59:04] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 07:59:04] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:59:04] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:59:04] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:59:04] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331298142077594419900
+[08-01-2015 07:59:04] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 07:59:06] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-63A253039D086881SZTMHSYA","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-222896713M8440240ZTMHSYA","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-1S914089FN4130726ZTMHSYA","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:59:06.592Z","update_time":"2015-01-09T03:59:06.592Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-63A253039D086881SZTMHSYA","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 07:59:06] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-2TV57262R7710405BZTJYELI
+[08-01-2015 07:59:06] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 07:59:06] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 07:59:06] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 07:59:06] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 07:59:08] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-2TV57262R7710405BZTJYELI","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-7KU88331V8742870XZTJYELI","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-9D207186DN929430NZTJYELI","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:53:41.165Z","update_time":"2015-01-09T03:53:41.165Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-2TV57262R7710405BZTJYELI","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 08:00:12] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-2TV57262R7710405BZTJYELI
+[08-01-2015 08:00:12] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 08:00:12] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 08:00:12] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 08:00:12] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 08:00:13] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-2TV57262R7710405BZTJYELI","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-7KU88331V8742870XZTJYELI","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-9D207186DN929430NZTJYELI","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T03:53:41.165Z","update_time":"2015-01-09T03:53:41.165Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-2TV57262R7710405BZTJYELI","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 09:15:50] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 09:15:50] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 09:15:50] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 09:15:50] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 09:15:50] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 2130706433135214207805491454
+[08-01-2015 09:15:50] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 09:15:51] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 09:15:51] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 09:15:51] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 09:15:51] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 09:15:51] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331303142078055148689
+[08-01-2015 09:15:51] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 09:15:52] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-02M3924619290513SZUPMEOA","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-0F594817WE750211FZUPMEOA","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-1P2050981G460470KZUPMEOA","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T05:15:52.760Z","update_time":"2015-01-09T05:15:52.760Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-02M3924619290513SZUPMEOA","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 09:15:53] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-00K647772J958040LZUPME4A","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-3CX93487MR321264XZUPME4A","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-08J61987LN169254CZUPME4A","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T05:15:52.816Z","update_time":"2015-01-09T05:15:52.816Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-00K647772J958040LZUPME4A","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 09:37:50] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 09:37:50] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 09:37:50] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 09:37:50] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 09:37:50] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331351142078187024283
+[08-01-2015 09:37:50] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 09:37:52] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-0L1546290G706094WZUZOG3I","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-72190514XW604962DZUZOG3I","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-8A724598TU814835VZUZOG3I","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T05:37:51.981Z","update_time":"2015-01-09T05:37:51.981Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-0L1546290G706094WZUZOG3I","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 09:37:52] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-0L1546290G706094WZUZOG3I
+[08-01-2015 09:37:52] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 09:37:52] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 09:37:52] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 09:37:52] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 09:37:53] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 09:37:53] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-0L1546290G706094WZUZOG3I
+[08-01-2015 09:37:53] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 09:37:53] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 09:37:53] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 09:37:53] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 09:37:55] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-0L1546290G706094WZUZOG3I","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-72190514XW604962DZUZOG3I","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-8A724598TU814835VZUZOG3I","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T05:37:51.981Z","update_time":"2015-01-09T05:37:53.580Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-0L1546290G706094WZUZOG3I","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 09:58:51] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 09:58:51] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 09:58:51] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 09:58:51] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 09:58:51] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331351142078313149642
+[08-01-2015 09:58:51] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 09:58:55] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-6AV60395FH301574VZVDCKBQ","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-95P20420NM603673BZVDCKBQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-9XH01373HJ164900YZVDCKBQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T05:58:53.958Z","update_time":"2015-01-09T05:58:53.958Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-6AV60395FH301574VZVDCKBQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 09:58:55] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-6AV60395FH301574VZVDCKBQ
+[08-01-2015 09:58:55] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 09:58:55] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 09:58:55] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 09:58:55] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 09:58:56] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 09:58:56] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-6AV60395FH301574VZVDCKBQ
+[08-01-2015 09:58:56] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 09:58:56] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 09:58:56] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 09:58:56] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 09:58:58] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-6AV60395FH301574VZVDCKBQ","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-95P20420NM603673BZVDCKBQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-9XH01373HJ164900YZVDCKBQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T05:58:53.958Z","update_time":"2015-01-09T05:58:56.458Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-6AV60395FH301574VZVDCKBQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 10:08:02] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 10:08:02] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:08:02] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:08:02] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:08:02] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 2130706433135214207836826607
+[08-01-2015 10:08:02] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 10:08:05] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-7UC70742YW784720GZVHI4KA","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-20W25302X2342920AZVHI4KA","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-4A141729DX535513EZVHI4KA","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T06:08:05.160Z","update_time":"2015-01-09T06:08:05.160Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-7UC70742YW784720GZVHI4KA","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 10:09:35] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 10:09:35] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:09:35] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:09:35] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:09:35] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331376142078377546541
+[08-01-2015 10:09:35] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 10:09:37] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-1WU88175JF680940PZVH7MXI","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-11L37736U73591305ZVH7MXI","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-9N9489229H398283JZVH7MXQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T06:09:37.373Z","update_time":"2015-01-09T06:09:37.373Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-1WU88175JF680940PZVH7MXI","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 10:09:37] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-1WU88175JF680940PZVH7MXI
+[08-01-2015 10:09:37] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:09:37] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:09:37] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:09:37] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/payment-definitions/PD-11L37736U73591305ZVH7MXI","value":{"name":"Updated Payment Definition","frequency":"Day","amount":{"currency":"USD","value":"50"}}}]
+
+[08-01-2015 10:09:40] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 10:09:40] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-1WU88175JF680940PZVH7MXI
+[08-01-2015 10:09:40] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:09:40] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:09:40] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:09:40] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 10:09:42] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-1WU88175JF680940PZVH7MXI","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-11L37736U73591305ZVH7MXI","name":"Updated Payment Definition","type":"REGULAR","frequency":"Day","amount":{"currency":"USD","value":"50"},"cycles":"12","charge_models":[{"id":"CHM-9N9489229H398283JZVH7MXQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T06:09:37.373Z","update_time":"2015-01-09T06:09:40.536Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-1WU88175JF680940PZVH7MXI","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 10:09:58] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 10:09:58] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:09:58] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:09:58] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:09:58] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331351142078379858316
+[08-01-2015 10:09:58] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 10:09:59] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-7ED67114NM2946041ZVIEYMQ","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-57T08204FA2556423ZVIEYMQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-12A0380753653173RZVIEYMQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T06:09:59.346Z","update_time":"2015-01-09T06:09:59.346Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-7ED67114NM2946041ZVIEYMQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 10:09:59] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-7ED67114NM2946041ZVIEYMQ
+[08-01-2015 10:09:59] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:09:59] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:09:59] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:09:59] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 10:10:01] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 10:10:01] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-7ED67114NM2946041ZVIEYMQ
+[08-01-2015 10:10:01] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:10:01] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:10:01] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:10:01] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 10:10:02] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-7ED67114NM2946041ZVIEYMQ","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-57T08204FA2556423ZVIEYMQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-12A0380753653173RZVIEYMQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T06:09:59.346Z","update_time":"2015-01-09T06:10:01.048Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-7ED67114NM2946041ZVIEYMQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 10:10:02] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-agreements/
+[08-01-2015 10:10:02] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:10:02] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:10:02] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:10:02] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331351142078379858316
+[08-01-2015 10:10:02] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"Base Agreement","description":"Basic Agreement","start_date":"2015-06-17T9:45:04Z","plan":{"id":"P-7ED67114NM2946041ZVIEYMQ"},"payer":{"payment_method":"paypal"},"shipping_address":{"line1":"111 First Street","city":"Saratoga","state":"CA","postal_code":"95070","country_code":"US"}}
+
+[08-01-2015 10:10:04] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"Base Agreement","description":"Basic Agreement","plan":{"id":"P-7ED67114NM2946041ZVIEYMQ","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-57T08204FA2556423ZVIEYMQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-12A0380753653173RZVIEYMQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"}},"links":[{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-3J1119345B3627354","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/EC-3J1119345B3627354/agreement-execute","rel":"execute","method":"POST"}],"start_date":"2015-06-17T9:45:04Z"}
+
+
+[08-01-2015 10:58:59] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[08-01-2015 10:58:59] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:58:59] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:58:59] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:58:59] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331298142078673820001
+[08-01-2015 10:58:59] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[08-01-2015 10:59:01] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-5KG722178X6149353ZV6TDUQ","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-49U79976FK817190UZV6TDUQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-6A860843E8981131VZV6TDUQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T06:59:01.714Z","update_time":"2015-01-09T06:59:01.714Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-5KG722178X6149353ZV6TDUQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 10:59:01] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-5KG722178X6149353ZV6TDUQ
+[08-01-2015 10:59:01] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:59:01] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:59:01] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:59:01] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[08-01-2015 10:59:03] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-01-2015 10:59:03] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-5KG722178X6149353ZV6TDUQ
+[08-01-2015 10:59:03] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:59:03] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:59:03] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:59:03] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 10:59:05] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-5KG722178X6149353ZV6TDUQ","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-49U79976FK817190UZV6TDUQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-6A860843E8981131VZV6TDUQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T06:59:01.714Z","update_time":"2015-01-09T06:59:03.396Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-5KG722178X6149353ZV6TDUQ","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 10:59:05] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-agreements/
+[08-01-2015 10:59:05] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:59:05] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:59:05] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:59:05] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331298142078673820001
+[08-01-2015 10:59:05] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"Base Agreement","description":"Basic Agreement","start_date":"2015-06-17T9:45:04Z","plan":{"id":"P-5KG722178X6149353ZV6TDUQ"},"payer":{"payment_method":"paypal"},"shipping_address":{"line1":"111 First Street","city":"Saratoga","state":"CA","postal_code":"95070","country_code":"US"}}
+
+[08-01-2015 10:59:06] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"Base Agreement","description":"Basic Agreement","plan":{"id":"P-5KG722178X6149353ZV6TDUQ","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-49U79976FK817190UZV6TDUQ","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-6A860843E8981131VZV6TDUQ","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"}},"links":[{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-89S61883WK925230R","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/EC-89S61883WK925230R/agreement-execute","rel":"execute","method":"POST"}],"start_date":"2015-06-17T9:45:04Z"}
+
+
+[08-01-2015 11:00:14] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-agreements/EC-89S61883WK925230R/agreement-execute
+[08-01-2015 11:00:14] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 11:00:14] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 11:00:14] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 11:00:14] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331350142078681412314
+[08-01-2015 11:00:14] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 11:00:16] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"I-D7PBSMBMVMPF","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-D7PBSMBMVMPF","rel":"self","method":"GET"}]}
+
+
+[08-01-2015 11:00:16] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-D7PBSMBMVMPF
+[08-01-2015 11:00:16] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 11:00:16] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 11:00:16] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 11:00:16] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-01-2015 11:00:17] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"I-D7PBSMBMVMPF","state":"Pending","description":"Basic Agreement","plan":{"payment_definitions":[{"type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100.00"},"cycles":"12","charge_models":[{"type":"TAX","amount":{"currency":"USD","value":"0.00"}},{"type":"SHIPPING","amount":{"currency":"USD","value":"10.00"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"0.00"},"max_fail_attempts":"0","auto_bill_amount":"YES"}},"links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-D7PBSMBMVMPF/suspend","rel":"suspend","method":"POST"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-D7PBSMBMVMPF/re-activate","rel":"re_activate","method":"POST"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-D7PBSMBMVMPF/cancel","rel":"cancel","method":"POST"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-D7PBSMBMVMPF/bill-balance","rel":"self","method":"POST"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-D7PBSMBMVMPF/set-balance","rel":"self","method":"POST"}],"start_date":"2015-06-17T07:00:00Z","agreement_details":{"outstanding_balance":{"currency":"USD","value":"0.00"},"cycles_remaining":"12","cycles_completed":"0","final_payment_date":"2017-04-17T10:00:00Z","failed_payment_count":"0"}}
+
+
+[09-01-2015 12:10:14] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-plans/
+[09-01-2015 12:10:14] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[09-01-2015 12:10:14] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[09-01-2015 12:10:14] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[09-01-2015 12:10:14] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331306142079101459759
+[09-01-2015 12:10:14] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"fixed","payment_definitions":[{"name":"Regular Payments","type":"REGULAR","frequency":"Month","frequency_interval":"2","cycles":"12","amount":{"value":"100","currency":"USD"},"charge_models":[{"type":"SHIPPING","amount":{"value":"10","currency":"USD"}}]}],"merchant_preferences":{"return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"yes","initial_fail_amount_action":"CONTINUE","max_fail_attempts":"0","setup_fee":{"value":"1","currency":"USD"}}}
+
+[09-01-2015 12:10:16] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-4FC793563K078541GZW7GYUA","state":"CREATED","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-0WU829730C682021PZW7GYUA","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-28Y77712N7188870GZW7GYUA","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T08:10:16.528Z","update_time":"2015-01-09T08:10:16.528Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-4FC793563K078541GZW7GYUA","rel":"self","method":"GET"}]}
+
+
+[09-01-2015 12:10:16] PayPal\Core\PPHttpConnection: INFO: PATCH https://api.sandbox.paypal.com/v1/payments/billing-plans/P-4FC793563K078541GZW7GYUA
+[09-01-2015 12:10:16] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[09-01-2015 12:10:16] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[09-01-2015 12:10:16] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[09-01-2015 12:10:16] PayPal\Core\PPHttpConnection: FINE: Payload : [{"op":"replace","path":"/","value":{"state":"ACTIVE"}}]
+
+[09-01-2015 12:10:19] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[09-01-2015 12:10:19] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-plans/P-4FC793563K078541GZW7GYUA
+[09-01-2015 12:10:19] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[09-01-2015 12:10:19] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[09-01-2015 12:10:19] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[09-01-2015 12:10:19] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[09-01-2015 12:10:21] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"P-4FC793563K078541GZW7GYUA","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-0WU829730C682021PZW7GYUA","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-28Y77712N7188870GZW7GYUA","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"},"create_time":"2015-01-09T08:10:16.528Z","update_time":"2015-01-09T08:10:19.247Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-plans/P-4FC793563K078541GZW7GYUA","rel":"self","method":"GET"}]}
+
+
+[09-01-2015 12:10:21] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-agreements/
+[09-01-2015 12:10:21] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[09-01-2015 12:10:21] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[09-01-2015 12:10:21] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[09-01-2015 12:10:21] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331306142079101459759
+[09-01-2015 12:10:21] PayPal\Core\PPHttpConnection: FINE: Payload : {"name":"Base Agreement","description":"Basic Agreement","start_date":"2015-06-17T9:45:04Z","plan":{"id":"P-4FC793563K078541GZW7GYUA"},"payer":{"payment_method":"paypal"},"shipping_address":{"line1":"111 First Street","city":"Saratoga","state":"CA","postal_code":"95070","country_code":"US"}}
+
+[09-01-2015 12:10:22] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"Base Agreement","description":"Basic Agreement","plan":{"id":"P-4FC793563K078541GZW7GYUA","state":"ACTIVE","name":"T-Shirt of the Month Club Plan","description":"Template creation.","type":"FIXED","payment_definitions":[{"id":"PD-0WU829730C682021PZW7GYUA","name":"Regular Payments","type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100"},"cycles":"12","charge_models":[{"id":"CHM-28Y77712N7188870GZW7GYUA","type":"SHIPPING","amount":{"currency":"USD","value":"10"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"1"},"max_fail_attempts":"0","return_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=true","cancel_url":"http://www.awpaypal.dev/sample/billing/ExecuteAgreement.php?success=false","auto_bill_amount":"YES","initial_fail_amount_action":"CONTINUE"}},"links":[{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-4PF27369NV0593331","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/EC-4PF27369NV0593331/agreement-execute","rel":"execute","method":"POST"}],"start_date":"2015-06-17T9:45:04Z"}
+
+
+[09-01-2015 12:11:33] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/payments/billing-agreements/EC-4PF27369NV0593331/agreement-execute
+[09-01-2015 12:11:33] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[09-01-2015 12:11:33] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[09-01-2015 12:11:33] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[09-01-2015 12:11:33] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 2130706433129614207910939571
+[09-01-2015 12:11:33] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[09-01-2015 12:11:35] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"I-BA7HEXG6LPJP","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-BA7HEXG6LPJP","rel":"self","method":"GET"}]}
+
+
+[09-01-2015 12:11:36] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-BA7HEXG6LPJP
+[09-01-2015 12:11:36] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[09-01-2015 12:11:36] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[09-01-2015 12:11:36] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[09-01-2015 12:11:36] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[09-01-2015 12:11:37] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"I-BA7HEXG6LPJP","state":"Pending","description":"Basic Agreement","plan":{"payment_definitions":[{"type":"REGULAR","frequency":"Month","amount":{"currency":"USD","value":"100.00"},"cycles":"12","charge_models":[{"type":"TAX","amount":{"currency":"USD","value":"0.00"}},{"type":"SHIPPING","amount":{"currency":"USD","value":"10.00"}}],"frequency_interval":"2"}],"merchant_preferences":{"setup_fee":{"currency":"USD","value":"0.00"},"max_fail_attempts":"0","auto_bill_amount":"YES"}},"links":[{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-BA7HEXG6LPJP/suspend","rel":"suspend","method":"POST"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-BA7HEXG6LPJP/re-activate","rel":"re_activate","method":"POST"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-BA7HEXG6LPJP/cancel","rel":"cancel","method":"POST"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-BA7HEXG6LPJP/bill-balance","rel":"self","method":"POST"},{"href":"https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-BA7HEXG6LPJP/set-balance","rel":"self","method":"POST"}],"start_date":"2015-06-17T07:00:00Z","agreement_details":{"outstanding_balance":{"currency":"USD","value":"0.00"},"cycles_remaining":"12","cycles_completed":"0","final_payment_date":"2017-04-17T10:00:00Z","failed_payment_count":"0"}}
+
+

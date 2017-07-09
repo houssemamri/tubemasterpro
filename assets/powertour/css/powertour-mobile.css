@@ -1,0 +1,177 @@
+/*
+ * ************************************************************* *
+ * Name         :  Power Tour mobile                             *
+ * Description  :  CSS for the tour plugin.                      *
+ * Version      :  Version 2.1.5                                 *
+ * Author       :  CreativeMilk                                  *
+ * Author URI   :  www.creativemilk.net                          *
+ * Updated      :  2015-01-20 16:55:18 UTC+02:00                 *
+ * Copyright    :  (c) 2012 CreativeMilk                         *
+ * ************************************************************* *
+ */
+ 
+ 
+/* 
+	You need to use '!important' for most CSS rules, as
+    some styling is added by the plugin.
+*/
+ 
+@media only screen and (max-width : 800px){
+
+	/* tour 1 - step 1 */
+	#pw-0-0{
+	}
+
+	/* tour 1 - step 2 */
+	#pw-0-1{
+	}
+
+	/* tour 1 - step 3 */
+	#pw-0-2{
+	}
+	
+	/* tour 1 - step 4 */
+	#pw-0-3{
+		width:400px!important;
+		left:20!important;
+		top:auto!important;
+		bottom:0!important;
+	}
+
+		#highlightstep{
+			display:none!important;			
+		}
+		#anycontent{
+			display:none!important;				
+		}
+		#controls2{
+			display:none!important;				
+		}
+		#highlighthook{
+			display:none!important;				
+		}
+									
+	/* tour 1 - step 5 */
+	#pw-0-4{
+		width:400px!important;
+	}
+	
+		#connectors1{
+			display:none!important;	
+		}
+		#connectors2{
+			display:none!important;	
+		}
+		#controls1{
+			display:none!important;	
+		}
+
+	/* tour 1 - step 6 */
+	#pw-0-5{
+		top:140px!important;
+		left:60px!important;	
+	}
+	
+		#pw-0-5	.connectordot-lt{
+			display:none!important;	
+		}
+	
+	/* tour 1 - step 7 */
+	#pw-0-6{	
+	}
+	
+	/* tour 1 - step 8 */
+	#pw-0-7{	
+	}
+
+	/* tour 1 - step 9 */
+	#pw-0-8{	
+	}
+	
+}
+
+@media only screen and (max-width : 600px){
+
+	/* tour 1 - step 1 */
+	#pw-0-0{
+	}
+
+	/* tour 1 - step 2 */
+	#pw-0-1{
+	}
+
+	/* tour 1 - step 3 */
+	#pw-0-2{
+	}
+	
+	/* tour 1 - step 4 */
+	#pw-0-3{
+		width:400px!important;
+		left:50%!important;
+		margin-left:-200px;
+		top:auto!important;
+		bottom:200px!important;
+	
+	}
+
+		#highlightstep{
+			display:none!important;			
+		}
+		#anycontent{
+			display:none!important;				
+		}
+		#controls2{
+			display:none!important;				
+		}
+		#highlighthook{
+			display:none!important;				
+		}
+									
+	/* tour 1 - step 5 */
+	#pw-0-4{
+		width:400px!important;
+	}
+	
+		#connectors1{
+			display:none!important;	
+		}
+		#connectors2{
+			display:none!important;	
+		}
+		#controls1{
+			display:none!important;	
+		}
+
+	/* tour 1 - step 6 */
+	#pw-0-5{
+		top:140px!important;
+		left:50%!important;		
+		margin-left:-180px;
+	}
+	
+		#pw-0-5	.connectordot-lt{
+			display:none!important;	
+		}
+	
+	/* tour 1 - step 7 */
+	#pw-0-6{
+		top:auto!important;
+		left:50%!important;	
+		right:auto!important;		
+		margin-left:-202px!important;		
+		bottom:150px!important;	
+	}
+	
+		.connectorarrow-rb{
+			display:none!important;	
+		}
+	
+	/* tour 1 - step 8 */
+	#pw-0-7{	
+	}
+
+	/* tour 1 - step 9 */
+	#pw-0-8{	
+	}
+	
+}

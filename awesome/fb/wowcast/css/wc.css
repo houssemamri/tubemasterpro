@@ -1,0 +1,371 @@
+html, body {
+  height: 100%;
+  font-family: MyriadPro-Regular;
+}
+
+.wc-live {
+    position: absolute;
+    margin-left:-8px;
+    margin-top: -8px;
+}
+
+.banner-bg {
+    margin: 0 2vw;
+    margin-top: 10px;
+    height: 400px;
+    background: #079fe2;
+    border: 4px solid #1b61aa;
+}
+
+.banner-img {
+    background-image: url(../images/guy-smile.png) !important;
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.rf-bg {
+    background: #079fe2;
+    height: 392px;
+    opacity: 0.8;
+}
+
+.footer-bg {
+    background-color: #ffffff;
+    margin: 0 2vw;
+    height: 400px;
+    border: 4px solid #1b61aa;
+    border-top: none;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.item {
+    margin: auto;
+    display:table;
+}
+.content {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for vh unit */
+  min-height: 100vh; /* You might also want to use
+                        'height' property instead.
+
+                        Note that for percentage values of
+                        'height' or 'min-height' properties,
+                        the 'height' of the parent element
+                        should be specified explicitly.
+
+                        In this case the parent of '.vertical-center'
+                        is the <body> element */
+
+  /* Make it a flex container */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  /* Align the bootstrap's container vertically */
+    -webkit-box-align : center;
+  -webkit-align-items : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+
+  /* In legacy web browsers such as Firefox 9
+     we need to specify the width of the flex container */
+  width: 100%;
+
+  /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+     hence the bootstrap's container won't be aligned to the center anymore.
+
+     Therefore, we should use the following declarations to get it centered again */
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center;
+}
+
+#wc-watch {
+  position: absolute;
+  top:190px;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.btn.btn-primary.btn-lg.room-name {
+    position: absolute;
+    width: 50vw;
+    height: 130px;
+    border: 2px solid #000000;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.footer-bg {
+    padding-top: 140px;
+}
+
+.footer-bg .col-centered {
+    height: 200px;
+}
+
+.footer-bg .col-centered label {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 8rem;
+    width: 100%;
+    height: 100px;
+}
+
+.footer-bg .col-centered font {
+    font-size: 2rem;
+}
+
+
+.footer-bg .col-centered div.border-sep {
+    margin: auto;
+    width: 1px;
+    border-left: 2px solid #000000;
+    height: 200px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .btn.btn-primary.btn-lg.room-name {
+    position: absolute;
+    width: 50vw;
+    height: 130px;
+    border: 2px solid #000000;
+    margin-top: -30px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+    #wc-watch img{
+        width: 100%;
+    }
+
+    .banner-img {
+        background-size: contain;
+    }
+
+    .btn.btn-primary.btn-lg.room-name {
+        width: 70vw;
+        height: 80px;
+        margin-top: -20px;
+        border: 2px solid #000000;
+        font-size: 1.5rem;
+    }
+
+    .footer-bg .col-centered label {
+        font-size: 3rem;
+        height: 40px;
+    }
+
+    .footer-bg .col-centered font {
+        font-size: 1rem;
+    }
+
+    .footer-bg .col-centered div.border-sep {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 960px) and (min-width: 700px){
+
+
+    .banner-img {
+        background-size: contain;
+    }
+
+    .btn.btn-primary.btn-lg.room-name {
+        width: 60vw;
+        height: 80px;
+        margin-top: -20px;
+        border: 2px solid #000000;
+        font-size: 2.5rem;
+    }
+}
+
+/** mao **/
+
+.feed-item {
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -moz-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    border-radius: 0.25rem;
+    width: 20rem;
+    background-color: white;
+    border: 1px solid #ECE8F3;
+    margin: 0 0.625rem 1.25rem 0.625rem;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.feed-item .feed-images {
+    position: relative;
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 10.625rem;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    box-align: stretch;
+    -webkit-align-items: stretch;
+    -moz-align-items: stretch;
+    -ms-align-items: stretch;
+    -o-align-items: stretch;
+    align-items: stretch;
+    -ms-flex-align: stretch;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    -o-justify-content: flex-start;
+    justify-content: flex-start;
+    -ms-flex-pack: start;
+}
+
+.feed-item.live .overlay-live {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #27ae60;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    z-index: 100;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.feed-item .feed-images.two-images .feed-image {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 50%;
+    -moz-flex: 1 50%;
+    -ms-flex: 1 50%;
+    flex: 1 50%;
+}
+
+.feed-item .feed-image {
+    background-size: cover;
+    background-position: center center;
+}
+
+.feed-item .action {
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+    padding: 0 0.5rem;
+}
+
+.feed-item .stream-details {
+    padding: 0.625rem 0.8125rem 4.375rem;
+    position: relative;
+    min-height: 9.375rem;
+}
+
+.banner {
+    width: 100%;
+    height: 20%;
+    min-height: 90px;
+    max-height: 90px;
+    display: table;
+    position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.feed-item .activity {
+    position: absolute;
+    width: 15.875rem;
+    bottom: 0;
+    left: 0;
+    padding: 0.625rem 0;
+    margin: 0 0.9375rem;
+    border-top: 1px solid #e6e6e6;
+}
+
+/** mao **/

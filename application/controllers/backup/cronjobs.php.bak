@@ -1,0 +1,185 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+error_reporting(0);
+class Cronjobs extends MX_Controller {
+
+
+    function __construct()
+    {
+        parent::__construct();
+        $this->load->library('authentication', NULL, 'ion_auth');
+        $this->load->library('form_validation');
+        $this->load->helper('url','form');
+        $this->load->library('template');
+        $this->template->add_js('contactform.js');
+        $this->load->database();
+
+        $this->form_validation->set_error_delimiters($this->config->item('error_start_delimiter', 'ion_auth'), $this->config->item('error_end_delimiter', 'ion_auth'));
+
+        $this->lang->load('auth');
+        $this->load->helper('language');
+        $this->load->helper('captcha');
+
+        $this->baseurl = $this->config->config['base_url']; 
+
+        $this->smtp_host = "box342.bluehost.com";
+        $this->smtp_user = "nathan@nathanhague.com";
+        $this->smtp_pass = "$Wolfman1";  
+        $this->api_key = md5("TuBeTaRgEtPro2015!?"); //f55de9fe13aa4cda7ec8f74bfd647466
+
+        $this->comission_amt = "67.00";
+
+    }
+
+    function index(){
+		return show_error('Error. Please try again'); 
+    }
+
+    function affiliate_payout(){
+
+        require 'paypal/sample/bootstrap.php';
+        $payouts = new \PayPal\Api\Payout();
+
+        $api_key = $this->uri->segment(3);
+        
+        if($api_key == $this->api_key){ 
+             //$aff_date_check = date('Y-m-d',time());
+            $aff_date_check = "2015-02-17";
+            $this->db->trans_start();
+            
+            //check user schedule that will pay 67USD to affiliate member    
+            $sql = "select id,user_id from paypal where aff_date_check = '$aff_date_check'";
+            $check_pp = $this->db->query($sql);
+            if($check_pp->num_rows() > 0){
+               $pp_aff = array();
+               foreach($check_pp->result_array() as $cp){
+                    //check who affiliated them
+                    $sql = "select aff.user_id as receiver_id, u.paypal_email 
+                            from 
+                                affiliates as aff,
+                                paypal as pp,
+                                users as u 
+                            where 
+                                aff.user_id_aff = '{$cp['user_id']}' 
+                            and
+                                pp.p_status = 'ACTIVE'
+                            and
+                                pp.ppstatus = '1'
+                            and
+                                u.paypal_email != ''
+                            and
+                                u.id = aff.user_id
+                            LIMIT 1";
+                    $check_user = $this->db->query($sql);
+                    if($check_user->num_rows() > 0){
+                        $show_rec = $check_user->row_array();
+                        $cp['receiver_id'] = $show_rec['receiver_id'];
+                        $cp['receiver_paypal_email'] = $show_rec['paypal_email'];
+                        //check payout if already ceated
+                        $sql = "select pid,aff_sent from aff_payout 
+                                where 
+                                    sender_trans_id = '{$cp['id']}' 
+                                and
+                                    sender_id = '{$cp['user_id']}'
+                                and
+                                    receiver_id = '{$show_rec['receiver_id']}'
+                                and
+                                    date_transaction = '$aff_date_check'
+                                LIMIT 1";
+
+                        $check_trans = $this->db->query($sql);
+                        if($check_trans->num_rows() == 0)
+                        {
+                            
+                            $data = array(
+                            'sender_trans_id'   => $cp['id'],
+                            'sender_id'         => $cp['user_id'],
+                            'receiver_id'       => $show_rec['receiver_id'],
+                            'date_transaction'  => $aff_date_check,
+                            'amt'               => $this->comission_amt
+                            );
+
+                            $this->db->insert('aff_payout', $data);
+                            $cp['aff_payout_id'] = $this->db->insert_id();
+                            $pp_aff[] = $cp;
+                        }else{
+                            $get_aff = $check_trans->row_array();
+
+                            if($get_aff['aff_sent'] == 0){
+                                $cp['aff_payout_id'] = $get_aff['pid'];
+                                $pp_aff[] = $cp; 
+                            }
+
+                        }
+
+                        
+                    }
+                   
+               }
+
+               /* SEND AFFILIATE TO USERS*/
+
+                foreach($pp_aff as $pa){
+                    $senderBatchHeader = new \PayPal\Api\PayoutSenderBatchHeader();
+                    // #### Batch Header Instance
+                    $senderBatchHeader->setSenderBatchId(uniqid())
+                    ->setEmailSubject("TubeTargetPro Payout!");
+                    // #### Sender Item
+                    // Please note that if you are using single payout with sync mode, you can only pass one Item in the request
+                    $senderItem = new \PayPal\Api\PayoutItem();
+                    $senderItem->setRecipientType('Email')
+                        ->setNote('TubeTargetPro Affiliate Sale')
+                        ->setReceiver('renefandida-buyer@gmail.com')
+                        ->setAmount(new \PayPal\Api\Currency('{
+                                            "value":"67",
+                                            "currency":"USD"
+                                        }'));
+
+                    $payouts->setSenderBatchHeader($senderBatchHeader)
+                        ->addItem($senderItem);
+
+
+                    // For Sample Purposes Only.
+                    $request = clone $payouts;
+
+                    // ### Create Payout
+                    try {
+                        $output = $payouts->createSynchronous($apiContext);
+                        $obj = $output->toJSON();
+                        $confirm_obj = (array) json_decode($obj);
+
+                        /* update transaction */
+                        $data = array(
+                           'payout_id' => $confirm_obj['batch_header']->payout_batch_id,
+                           'payout_status' => $confirm_obj['batch_header']->batch_status,
+                           'aff_sent' => 1
+                        );     
+                        $this->db->where('pid', $pa['aff_payout_id']);
+                        $this->db->update('aff_payout', $data);
+                    } catch (Exception $ex) {
+                        ResultPrinter::printError("Created Single Synchronous Payout", "Payout", null, $request, $ex);
+                        exit(1);
+                    }
+               }
+            }
+            $this->db->trans_complete();
+        }else{
+         return show_error('Error. Please try again'); 
+        } 
+    }
+/*
+    function verify_paypal_payment(){
+
+       $api_key = $this->uri->segment(3);
+        if($api_key == $this->api_key){
+            $next_billing_date = date('Y-m-d',time());
+
+             $this->db->trans_start();
+             $sql = "select plan_id,user_id,p_status from paypal where p_status = 'ACTIVE' and next_billing_date = '$next_billing_date_check'";
+             echo $sql;
+             $this->db->trans_complete();
+        }else{  
+             return show_error('Error. Please try again');
+        }
+    }
+*/
+}

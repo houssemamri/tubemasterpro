@@ -1,0 +1,317 @@
+Input campaigns here	"Campaign=39-325460888, locale=en_US"
+Action	Status	Campaign	Budget	Budget ID	Network	Delivery method	Start date	End date	Ad rotation	Frequency cap	Mobile bid modifier	Impressions Thumbnail (Ignored)	Impressions Video (Ignored)	Impressions (Ignored)	Views (Ignored)	Unique viewers (Ignored)	View rate (Ignored)	Avg. CPV (Ignored)	Total cost (Ignored)	Clicks (Ignored)	CTR (Ignored)	Avg. CPM (Ignored)	Reach per freq. 1+ (Ignored)	Reach per freq. 2+ (Ignored)	Reach per freq. 3+ (Ignored)	Reach per freq. 4+ (Ignored)	Reach per freq. 5+ (Ignored)	Reach per freq. 6+ (Ignored)	Reach per freq. 7+ (Ignored)	Reach per freq. 8+ (Ignored)	Avg. impr. freq. (Ignored)	Avg. view freq. (Ignored)	Video played to: 25% (Ignored)	Video played to: 50% (Ignored)	Video played to: 75% (Ignored)	Video played to: 100% (Ignored)	Impression share (Ignored)	Lost IS (budget) (Ignored)	Lost IS (rank) (Ignored)	Earned views (Ignored)	Earned subscribers (Ignored)	Earned playlist additions (Ignored)	Earned likes (Ignored)	Earned shares (Ignored)
+	Enabled	Test (39-325460888)	5	38-390006848	YouTube Videos	Standard	 2015-6-22 (already started)	#n/a	Optimize for views	#n/a	0%	0	0	0	0	 	0.00%	Php0.00	Php0.00	0	0.00%	Php0.00	 	 	 	 	 	 	 	 	 	 	0%	0%	0%	0%	 	 	 	0	0	0	0	0
+
+
+Input ads here	"Campaign=39-325460888, locale=en_US"
+Action	Status	Ad	Video id	Thumbnail	Headline	Description line one	Description line two	Display Url	Destination Url	Final Url	Tracking template	Custom parameter	YouTube destination	Showing on	Companion banner	Enable ad for	Video (Ignored)	Campaign	Impressions Thumbnail (Ignored)	Impressions Video (Ignored)	Impressions (Ignored)	Views (Ignored)	Unique viewers (Ignored)	View rate (Ignored)	Avg. CPV (Ignored)	Total cost (Ignored)	Clicks (Ignored)	CTR (Ignored)	Avg. CPM (Ignored)	Reach per freq. 1+ (Ignored)	Reach per freq. 2+ (Ignored)	Reach per freq. 3+ (Ignored)	Reach per freq. 4+ (Ignored)	Reach per freq. 5+ (Ignored)	Reach per freq. 6+ (Ignored)	Reach per freq. 7+ (Ignored)	Reach per freq. 8+ (Ignored)	Avg. impr. freq. (Ignored)	Avg. view freq. (Ignored)	Video played to: 25% (Ignored)	Video played to: 50% (Ignored)	Video played to: 75% (Ignored)	Video played to: 100% (Ignored)	Earned views (Ignored)	Earned subscribers (Ignored)	Earned playlist additions (Ignored)	Earned likes (Ignored)	Earned shares (Ignored)
+	Enabled	Superman Helps The Avengers (DC Marvel Crossover Fan-Made) (43-234341528)	 -Ksboz-0Qj4	#n/a	#n/a	#n/a	#n/a	www.test.com	http://test.com	#n/a	#n/a	#n/a	#n/a	In-stream	#n/a	"gopro (42-234341408), maroon (42-234341288)"	Superman Helps The Avengers (DC Marvel Crossover Fan-Made)	Test (39-325460888)	0	0	0	10	 	0.00%	Php0.00	Php0.00	4	0.00%	Php0.00	 	 	 	 	 	 	 	 	 	 	0%	0%	0%	0%	0	0	0	0	0
+
+
+Input targeting groups here	"Campaign=39-325460888, locale=en_US"
+Action	Status	Targeting group	Campaign	Max CPV	Impressions Thumbnail (Ignored)	Impressions Video (Ignored)	Impressions (Ignored)	Views (Ignored)	Unique viewers (Ignored)	View rate (Ignored)	Avg. CPV (Ignored)	Total cost (Ignored)	Clicks (Ignored)	CTR (Ignored)	Avg. CPM (Ignored)	Reach per freq. 1+ (Ignored)	Reach per freq. 2+ (Ignored)	Reach per freq. 3+ (Ignored)	Reach per freq. 4+ (Ignored)	Reach per freq. 5+ (Ignored)	Reach per freq. 6+ (Ignored)	Reach per freq. 7+ (Ignored)	Reach per freq. 8+ (Ignored)	Avg. impr. freq. (Ignored)	Avg. view freq. (Ignored)	Engagements (Ignored)	Engagement rate (Ignored)	Video played to: 25% (Ignored)	Video played to: 50% (Ignored)	Video played to: 75% (Ignored)	Video played to: 100% (Ignored)	Impression share (Ignored)	Lost IS (budget) (Ignored)	Lost IS (rank) (Ignored)	Earned views (Ignored)	Earned subscribers (Ignored)	Earned playlist additions (Ignored)	Earned likes (Ignored)	Earned shares (Ignored)
+	Enabled	maroon (42-234341288)	Test (39-325460888)	Php0.10	0	0	0	0	 	0.00%	Php0.00	Php0.00	0	0.00%	Php0.00	 	 	 	 	 	 	 	 	 	 	0	0.00%	0%	0%	0%	0%	 	 	 	0	0	0	0	0
+	Enabled	gopro (42-234341408)	Test (39-325460888)	Php0.10	0	0	0	0	 	0.00%	Php0.00	Php0.00	0	0.00%	Php0.00	 	 	 	 	 	 	 	 	 	 	0	0.00%	0%	0%	0%	0%	 	 	 	0	0	0	0	0
+
+
+Input targets here	"Campaign=39-325460888, locale=en_US"
+Action	Type	Status	Target	Targeting group	Max CPV	Impressions Thumbnail (Ignored)	Impressions Video (Ignored)	Impressions (Ignored)	Views (Ignored)	View rate (Ignored)	Avg. CPV (Ignored)	Total cost (Ignored)
+	Age	Enabled	18 - 24 (1-503001)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	18 - 24 (1-503001)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	25 - 34 (1-503002)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	25 - 34 (1-503002)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	35 - 44 (1-503003)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	35 - 44 (1-503003)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	45 - 54 (1-503004)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	45 - 54 (1-503004)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	55 - 64 (1-503005)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	55 - 64 (1-503005)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	65+ (1-503006)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	65+ (1-503006)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	Unknown (1-503999)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Age	Enabled	Unknown (1-503999)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	GoPro: Shotgun Balloon Drop (youtube.com/video/_hYC-ukmlU0) (10-73866699695)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	Maroon 5 - Animals (Gryffin Remix) (youtube.com/video/_XSd_AFtGGI) (10-113009826486)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	GoPro: Bolivia - A Father and Son's Journey (youtube.com/video/4Y77YWJcQ2c) (10-130331232488)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	Maroon 5 - Animals (Lyric Video) (youtube.com/video/7BJ3ZXpserc) (10-101403543886)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	GoPro: Helicopter Skydive (youtube.com/video/CzW_5x1M4Uc) (10-105510372301)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	Maroon 5 - Animals (Victoria's Secret Swim Special) (youtube.com/video/dTD-TcsUJ_g) (10-124741658720)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	GoPro: Water Rocket (youtube.com/video/IlbGSujUepc) (10-130331232728)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	FH2 GoPro Highway Drifting Online w/Porsche 944 Turbo (youtube.com/video/jE_XzOHAhaM) (10-130331233448)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	"The Voice 2014 - Maroon 5: ""Animals"" (youtube.com/video/LDbUHnCUiGA) (10-131240309095)"	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	GoPro: Rémy Métailler Taxco Downhill - GoPro of the World January Winner (youtube.com/video/nZcejtAwxz4) (10-105510451261)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	http://youtube.com/video/O1uI-uN1mmA (youtube.com/video/O1uI-uN1mmA) (10-130331232968)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	Maroon 5 - Animals (youtube.com/video/qpgTC9MDx1o) (10-101465222462)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	GoPro: 8-Bit Ski (youtube.com/video/qTjv34jS4gU) (10-130331233928)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	Animals - Maroon 5 (youtube.com/video/SCXlfCU6fJ4) (10-102102047043)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	GoPro: Freeboarding Down Lombard Street (youtube.com/video/StlARM3LSoU) (10-130331233208)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	"Maroon 5 - ""Animals"" PARODY (youtube.com/video/T-8XurAKMkU) (10-107858596815)"	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	GoPro: Are You Okay Marcos? (youtube.com/video/yeEjqfKVedQ) (10-130331234168)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	http://youtube.com/video/YXMpBsuCuiw (youtube.com/video/YXMpBsuCuiw) (10-137179709291)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	YouTube video	Enabled	ProSingKaraoke - Maroon 5 - Animals (Karaoke Version) (youtube.com/video/z3g8IK0nw5g) (10-130331234408)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Gender	Enabled	Male (4-10)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Gender	Enabled	Male (4-10)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Gender	Enabled	Female (4-11)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Gender	Enabled	Female (4-11)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Gender	Enabled	Unknown (4-20)	maroon (42-234341288)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+	Gender	Enabled	Unknown (4-20)	gopro (42-234341408)	#n/a	0	0	0	0	0.00%	Php0.00	Php0.00
+
+
+Input targets here (targeting group negatives)	"Campaign=39-325460888, locale=en_US"
+Action	Type	Negative target	Targeting group
+
+
+Input targets here (campaign settings)	"Campaign=39-325460888, locale=en_US"
+Action	Type	Campaign target	Campaign
+	Language	English (46-1000)	Test (39-325460888)
+	Language	German (46-1001)	Test (39-325460888)
+	Language	French (46-1002)	Test (39-325460888)
+	Language	Spanish (46-1003)	Test (39-325460888)
+	Language	Italian (46-1004)	Test (39-325460888)
+	Language	Japanese (46-1005)	Test (39-325460888)
+	Language	Danish (46-1009)	Test (39-325460888)
+	Language	Dutch (46-1010)	Test (39-325460888)
+	Language	Finnish (46-1011)	Test (39-325460888)
+	Language	Korean (46-1012)	Test (39-325460888)
+	Language	Norwegian (46-1013)	Test (39-325460888)
+	Language	Portuguese (46-1014)	Test (39-325460888)
+	Language	Swedish (46-1015)	Test (39-325460888)
+	Language	Chinese (simplified) (46-1017)	Test (39-325460888)
+	Language	Chinese (traditional) (46-1018)	Test (39-325460888)
+	Language	Arabic (46-1019)	Test (39-325460888)
+	Language	Bulgarian (46-1020)	Test (39-325460888)
+	Language	Czech (46-1021)	Test (39-325460888)
+	Language	Greek (46-1022)	Test (39-325460888)
+	Language	Hindi (46-1023)	Test (39-325460888)
+	Language	Hungarian (46-1024)	Test (39-325460888)
+	Language	Indonesian (46-1025)	Test (39-325460888)
+	Language	Icelandic (46-1026)	Test (39-325460888)
+	Language	Hebrew (46-1027)	Test (39-325460888)
+	Language	Latvian (46-1028)	Test (39-325460888)
+	Language	Lithuanian (46-1029)	Test (39-325460888)
+	Language	Polish (46-1030)	Test (39-325460888)
+	Language	Russian (46-1031)	Test (39-325460888)
+	Language	Romanian (46-1032)	Test (39-325460888)
+	Language	Slovak (46-1033)	Test (39-325460888)
+	Language	Slovenian (46-1034)	Test (39-325460888)
+	Language	Serbian (46-1035)	Test (39-325460888)
+	Language	Ukrainian (46-1036)	Test (39-325460888)
+	Language	Turkish (46-1037)	Test (39-325460888)
+	Language	Catalan (46-1038)	Test (39-325460888)
+	Language	Croatian (46-1039)	Test (39-325460888)
+	Language	Vietnamese (46-1040)	Test (39-325460888)
+	Language	Urdu (46-1041)	Test (39-325460888)
+	Language	Filipino (46-1042)	Test (39-325460888)
+	Language	Estonian (46-1043)	Test (39-325460888)
+	Language	Thai (46-1044)	Test (39-325460888)
+	Language	Persian (46-1064)	Test (39-325460888)
+	Language	Malay (46-1102)	Test (39-325460888)
+	Location	Afghanistan (47-2004)	Test (39-325460888)
+	Location	Albania (47-2008)	Test (39-325460888)
+	Location	Algeria (47-2012)	Test (39-325460888)
+	Location	American Samoa (47-2016)	Test (39-325460888)
+	Location	Andorra (47-2020)	Test (39-325460888)
+	Location	Angola (47-2024)	Test (39-325460888)
+	Location	Antigua and Barbuda (47-2028)	Test (39-325460888)
+	Location	Azerbaijan (47-2031)	Test (39-325460888)
+	Location	Argentina (47-2032)	Test (39-325460888)
+	Location	Australia (47-2036)	Test (39-325460888)
+	Location	Austria (47-2040)	Test (39-325460888)
+	Location	The Bahamas (47-2044)	Test (39-325460888)
+	Location	Bahrain (47-2048)	Test (39-325460888)
+	Location	Bangladesh (47-2050)	Test (39-325460888)
+	Location	Armenia (47-2051)	Test (39-325460888)
+	Location	Barbados (47-2052)	Test (39-325460888)
+	Location	Belgium (47-2056)	Test (39-325460888)
+	Location	Bhutan (47-2064)	Test (39-325460888)
+	Location	Bolivia (47-2068)	Test (39-325460888)
+	Location	Bosnia and Herzegovina (47-2070)	Test (39-325460888)
+	Location	Botswana (47-2072)	Test (39-325460888)
+	Location	Brazil (47-2076)	Test (39-325460888)
+	Location	Belize (47-2084)	Test (39-325460888)
+	Location	Solomon Islands (47-2090)	Test (39-325460888)
+	Location	Brunei (47-2096)	Test (39-325460888)
+	Location	Bulgaria (47-2100)	Test (39-325460888)
+	Location	Burundi (47-2108)	Test (39-325460888)
+	Location	Belarus (47-2112)	Test (39-325460888)
+	Location	Cambodia (47-2116)	Test (39-325460888)
+	Location	Cameroon (47-2120)	Test (39-325460888)
+	Location	Canada (47-2124)	Test (39-325460888)
+	Location	Cape Verde (47-2132)	Test (39-325460888)
+	Location	Cayman Islands (47-2136)	Test (39-325460888)
+	Location	Central African Republic (47-2140)	Test (39-325460888)
+	Location	Sri Lanka (47-2144)	Test (39-325460888)
+	Location	Chile (47-2152)	Test (39-325460888)
+	Location	China (47-2156)	Test (39-325460888)
+	Location	Christmas Island (47-2162)	Test (39-325460888)
+	Location	Cocos (Keeling) Islands (47-2166)	Test (39-325460888)
+	Location	Colombia (47-2170)	Test (39-325460888)
+	Location	Comoros (47-2174)	Test (39-325460888)
+	Location	Congo (47-2178)	Test (39-325460888)
+	Location	Democratic Republic of the Congo (47-2180)	Test (39-325460888)
+	Location	Cook Islands (47-2184)	Test (39-325460888)
+	Location	Costa Rica (47-2188)	Test (39-325460888)
+	Location	Croatia (47-2191)	Test (39-325460888)
+	Location	Cyprus (47-2196)	Test (39-325460888)
+	Location	Czech Republic (47-2203)	Test (39-325460888)
+	Location	Benin (47-2204)	Test (39-325460888)
+	Location	Denmark (47-2208)	Test (39-325460888)
+	Location	Dominican Republic (47-2214)	Test (39-325460888)
+	Location	Ecuador (47-2218)	Test (39-325460888)
+	Location	El Salvador (47-2222)	Test (39-325460888)
+	Location	Equatorial Guinea (47-2226)	Test (39-325460888)
+	Location	Ethiopia (47-2231)	Test (39-325460888)
+	Location	Eritrea (47-2232)	Test (39-325460888)
+	Location	Estonia (47-2233)	Test (39-325460888)
+	Location	South Georgia and the South Sandwich Islands (47-2239)	Test (39-325460888)
+	Location	Fiji (47-2242)	Test (39-325460888)
+	Location	Finland (47-2246)	Test (39-325460888)
+	Location	France (47-2250)	Test (39-325460888)
+	Location	French Polynesia (47-2258)	Test (39-325460888)
+	Location	French Southern and Antarctic Lands (47-2260)	Test (39-325460888)
+	Location	Djibouti (47-2262)	Test (39-325460888)
+	Location	Gabon (47-2266)	Test (39-325460888)
+	Location	The Gambia (47-2270)	Test (39-325460888)
+	Location	Germany (47-2276)	Test (39-325460888)
+	Location	Ghana (47-2288)	Test (39-325460888)
+	Location	Kiribati (47-2296)	Test (39-325460888)
+	Location	Greece (47-2300)	Test (39-325460888)
+	Location	Grenada (47-2308)	Test (39-325460888)
+	Location	Guam (47-2316)	Test (39-325460888)
+	Location	Guatemala (47-2320)	Test (39-325460888)
+	Location	Guinea (47-2324)	Test (39-325460888)
+	Location	Guyana (47-2328)	Test (39-325460888)
+	Location	Haiti (47-2332)	Test (39-325460888)
+	Location	Heard Island and McDonald Islands (47-2334)	Test (39-325460888)
+	Location	Vatican City (47-2336)	Test (39-325460888)
+	Location	Honduras (47-2340)	Test (39-325460888)
+	Location	Hungary (47-2348)	Test (39-325460888)
+	Location	Iceland (47-2352)	Test (39-325460888)
+	Location	Indonesia (47-2360)	Test (39-325460888)
+	Location	Iraq (47-2368)	Test (39-325460888)
+	Location	Ireland (47-2372)	Test (39-325460888)
+	Location	Israel (47-2376)	Test (39-325460888)
+	Location	Italy (47-2380)	Test (39-325460888)
+	Location	Cote d Ivoire (47-2384)	Test (39-325460888)
+	Location	Japan (47-2392)	Test (39-325460888)
+	Location	Kazakhstan (47-2398)	Test (39-325460888)
+	Location	Jordan (47-2400)	Test (39-325460888)
+	Location	Kenya (47-2404)	Test (39-325460888)
+	Location	South Korea (47-2410)	Test (39-325460888)
+	Location	Kuwait (47-2414)	Test (39-325460888)
+	Location	Kyrgyzstan (47-2417)	Test (39-325460888)
+	Location	Laos (47-2418)	Test (39-325460888)
+	Location	Lesotho (47-2426)	Test (39-325460888)
+	Location	Latvia (47-2428)	Test (39-325460888)
+	Location	Liberia (47-2430)	Test (39-325460888)
+	Location	Libya (47-2434)	Test (39-325460888)
+	Location	Liechtenstein (47-2438)	Test (39-325460888)
+	Location	Lithuania (47-2440)	Test (39-325460888)
+	Location	Luxembourg (47-2442)	Test (39-325460888)
+	Location	Madagascar (47-2450)	Test (39-325460888)
+	Location	Malawi (47-2454)	Test (39-325460888)
+	Location	Malaysia (47-2458)	Test (39-325460888)
+	Location	Maldives (47-2462)	Test (39-325460888)
+	Location	Malta (47-2470)	Test (39-325460888)
+	Location	Mauritania (47-2478)	Test (39-325460888)
+	Location	Mauritius (47-2480)	Test (39-325460888)
+	Location	Mexico (47-2484)	Test (39-325460888)
+	Location	Monaco (47-2492)	Test (39-325460888)
+	Location	Mongolia (47-2496)	Test (39-325460888)
+	Location	Moldova (47-2498)	Test (39-325460888)
+	Location	Montenegro (47-2499)	Test (39-325460888)
+	Location	Morocco (47-2504)	Test (39-325460888)
+	Location	Mozambique (47-2508)	Test (39-325460888)
+	Location	Oman (47-2512)	Test (39-325460888)
+	Location	Namibia (47-2516)	Test (39-325460888)
+	Location	Nauru (47-2520)	Test (39-325460888)
+	Location	Nepal (47-2524)	Test (39-325460888)
+	Location	Netherlands (47-2528)	Test (39-325460888)
+	Location	New Caledonia (47-2540)	Test (39-325460888)
+	Location	Vanuatu (47-2548)	Test (39-325460888)
+	Location	New Zealand (47-2554)	Test (39-325460888)
+	Location	Nicaragua (47-2558)	Test (39-325460888)
+	Location	Nigeria (47-2566)	Test (39-325460888)
+	Location	Niue (47-2570)	Test (39-325460888)
+	Location	Norfolk Island (47-2574)	Test (39-325460888)
+	Location	Norway (47-2578)	Test (39-325460888)
+	Location	Northern Mariana Islands (47-2580)	Test (39-325460888)
+	Location	United States Minor Outlying Islands (47-2581)	Test (39-325460888)
+	Location	Micronesia (47-2583)	Test (39-325460888)
+	Location	Marshall Islands (47-2584)	Test (39-325460888)
+	Location	Palau (47-2585)	Test (39-325460888)
+	Location	Pakistan (47-2586)	Test (39-325460888)
+	Location	Papua New Guinea (47-2598)	Test (39-325460888)
+	Location	Paraguay (47-2600)	Test (39-325460888)
+	Location	Peru (47-2604)	Test (39-325460888)
+	Location	Philippines (47-2608)	Test (39-325460888)
+	Location	Pitcairn Islands (47-2612)	Test (39-325460888)
+	Location	Poland (47-2616)	Test (39-325460888)
+	Location	Portugal (47-2620)	Test (39-325460888)
+	Location	Guinea-Bissau (47-2624)	Test (39-325460888)
+	Location	East Timor (47-2626)	Test (39-325460888)
+	Location	Qatar (47-2634)	Test (39-325460888)
+	Location	Romania (47-2642)	Test (39-325460888)
+	Location	Russia (47-2643)	Test (39-325460888)
+	Location	Rwanda (47-2646)	Test (39-325460888)
+	Location	Saint Kitts and Nevis (47-2659)	Test (39-325460888)
+	Location	Saint Lucia (47-2662)	Test (39-325460888)
+	Location	Saint Pierre and Miquelon (47-2666)	Test (39-325460888)
+	Location	Saint Vincent and the Grenadines (47-2670)	Test (39-325460888)
+	Location	Sao Tome and Principe (47-2678)	Test (39-325460888)
+	Location	Saudi Arabia (47-2682)	Test (39-325460888)
+	Location	Senegal (47-2686)	Test (39-325460888)
+	Location	Serbia (47-2688)	Test (39-325460888)
+	Location	Seychelles (47-2690)	Test (39-325460888)
+	Location	Sierra Leone (47-2694)	Test (39-325460888)
+	Location	Singapore (47-2702)	Test (39-325460888)
+	Location	Slovakia (47-2703)	Test (39-325460888)
+	Location	Vietnam (47-2704)	Test (39-325460888)
+	Location	Slovenia (47-2705)	Test (39-325460888)
+	Location	Somalia (47-2706)	Test (39-325460888)
+	Location	South Africa (47-2710)	Test (39-325460888)
+	Location	Zimbabwe (47-2716)	Test (39-325460888)
+	Location	Spain (47-2724)	Test (39-325460888)
+	Location	Suriname (47-2740)	Test (39-325460888)
+	Location	Swaziland (47-2748)	Test (39-325460888)
+	Location	Sweden (47-2752)	Test (39-325460888)
+	Location	Switzerland (47-2756)	Test (39-325460888)
+	Location	Tajikistan (47-2762)	Test (39-325460888)
+	Location	Thailand (47-2764)	Test (39-325460888)
+	Location	Togo (47-2768)	Test (39-325460888)
+	Location	Tokelau (47-2772)	Test (39-325460888)
+	Location	Tonga (47-2776)	Test (39-325460888)
+	Location	Trinidad and Tobago (47-2780)	Test (39-325460888)
+	Location	United Arab Emirates (47-2784)	Test (39-325460888)
+	Location	Tunisia (47-2788)	Test (39-325460888)
+	Location	Turkey (47-2792)	Test (39-325460888)
+	Location	Turkmenistan (47-2795)	Test (39-325460888)
+	Location	Tuvalu (47-2798)	Test (39-325460888)
+	Location	Uganda (47-2800)	Test (39-325460888)
+	Location	Ukraine (47-2804)	Test (39-325460888)
+	Location	Macedonia (FYROM) (47-2807)	Test (39-325460888)
+	Location	Egypt (47-2818)	Test (39-325460888)
+	Location	United Kingdom (47-2826)	Test (39-325460888)
+	Location	Tanzania (47-2834)	Test (39-325460888)
+	Location	United States (47-2840)	Test (39-325460888)
+	Location	Burkina Faso (47-2854)	Test (39-325460888)
+	Location	Uruguay (47-2858)	Test (39-325460888)
+	Location	Uzbekistan (47-2860)	Test (39-325460888)
+	Location	Venezuela (47-2862)	Test (39-325460888)
+	Location	Wallis and Futuna (47-2876)	Test (39-325460888)
+	Location	Samoa (47-2882)	Test (39-325460888)
+	Location	Yemen (47-2887)	Test (39-325460888)
+	Location	Zambia (47-2894)	Test (39-325460888)
+	Location	Georgia (47-21143)	Test (39-325460888)
+	Location	Malibu (47-1013978)	Test (39-325460888)
+	Location	San Marino (47-1014235)	Test (39-325460888)
+	Location	Saint Helena (47-1014300)	Test (39-325460888)
+	Location	Panama City Beach (47-1015164)	Test (39-325460888)
+	Location	Indianapolis (47-1017146)	Test (39-325460888)
+	Location	Jamaica (47-1023039)	Test (39-325460888)
+	Location	Chadds Ford (47-1024727)	Test (39-325460888)
+	Location	Lebanon (47-1026044)	Test (39-325460888)
+
+
+Input targets here (campaign negatives)	"Campaign=39-325460888, locale=en_US"
+Action	Type	Campaign negative target	Campaign

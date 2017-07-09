@@ -1,0 +1,34 @@
+.yt-thumbnail-mini.yt-thumbnail-wrapper2,
+.yt-thumbnail-mini>.yt-thumbnail-wrapper1 {
+	height: 41px;
+	width: 72px;
+}
+
+.yt-thumbnail-mini>.yt-thumbnail-wrapper1 {
+	overflow: hidden;
+}
+
+.yt-thumbnail-wrapper2 {
+	display: inline-block;
+	text-align: right;
+}
+
+.yt-thumbnail-mini {
+	float: left;
+	margin-right: 10px;
+	padding: 0;
+}
+
+.yt-thumbnail-image {
+	margin-top: -7px;
+	width: 72px;
+}
+
+.yt-duration {
+	font-size: 9px;
+	height: 12px;
+	line-height: 12px;
+	margin-top: -12px;
+	padding: 0 3px;
+	color: white;
+}

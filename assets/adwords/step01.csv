@@ -1,0 +1,3 @@
+Input campaigns here,"Campaign, locale=en_US"
+Action,Campaign state,Campaign,Delivery Method,Campaign Type,Networks,bid strategy type,start date,end date,budget,Language,Location
+Add,Active,Test Campaign 400,Accelerated,Video,,cpv,2015-09-05,2015-09-10,10,en,United States;Gernmany;United Kingdom

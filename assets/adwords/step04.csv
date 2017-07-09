@@ -1,0 +1,15 @@
+Input targets here,"Campaign, locale=en_US"
+Action,Placement state,Campaign,Ad Group,Placement,Criterion ID,Status
+Add,enabled,Test Campaign 400,sample-Group 410 (In-Stream),pWB26jtXxpY,
+Add,enabled,Test Campaign 400,sample-Group 410 (In-Stream),aXnZWvdAYOk,
+Add,,Test Campaign 400,sample-Group 410 (In-Stream),,503001,Enabled
+Add,,Test Campaign 400,sample-Group 410 (In-Stream),,503002,Enabled
+Add,,Test Campaign 400,sample-Group 410 (In-Stream),,503003,Enabled
+Add,,Test Campaign 400,sample-Group 410 (In-Stream),,503004,Enabled
+Add,,Test Campaign 400,sample-Group 410 (In-Stream),,503005,Enabled
+Add,,Test Campaign 400,sample-Group 410 (In-Stream),,503006,Enabled
+
+Add,,Test Campaign 400,sample-Group 410 (In-Stream),,10,Enabled
+Add,,Test Campaign 400,sample-Group 410 (In-Stream),,11,Enabled
+Add,,Test Campaign 400,sample-Group 410 (In-Stream),,20,Enabled
+

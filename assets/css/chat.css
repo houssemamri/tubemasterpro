@@ -1,0 +1,406 @@
+.authfailure{
+    width:98%; 
+    padding:1%; 
+    background-color:#f2dede; 
+    text-align:center;
+    margin-top:15px;
+}
+
+.msg{
+    background-color:#dff0d8;
+    padding:1%;
+    width:98%;
+    text-align:center;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body
+{
+/*
+   overflow-y: scroll;
+   height: 400px;
+    padding-bottom: 6em;*/
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)  {
+  .panel-body
+  {
+      overflow-y: scroll;
+      height: 800px;
+      /*padding-bottom: 6em;*/
+  }
+  .box-info{
+    height: 900px;
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) 
+{
+  .panel-body
+  {
+      overflow-y: scroll;
+      height: 480px;
+      /*padding-bottom: 6em;*/
+  }
+  .box-info{
+    height: 600px;
+  } 
+}
+
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+ul#user
+{
+list-style-type: none;
+padding-left:0px;
+}
+
+.main_container {
+    background-color: #F5F5F5;
+    min-height: 300px;
+}
+.roomlist{
+    border-right: 2px solid #c3c3c3;
+    background-color: #F5F5F5;
+}
+
+.cContainer{
+    background-color: #F5F5F5;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/* CHAT CSS */
+@import url(http://weloveiconfonts.com/api/?family=typicons);
+[class*="typicons-"]:before {
+  font-family: 'Typicons', sans-serif;
+}
+
+.module {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.top-bar {
+  background: #666;
+  color: white;
+  padding: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.top-bar h1 {
+  display: inline;
+  font-size: 1.1rem;
+}
+.top-bar .typicons-message {
+  display: inline-block;
+  padding: 4px 5px 2px 5px;
+}
+.top-bar .typicons-minus {
+  position: relative;
+  top: 3px;
+}
+.top-bar .left {
+  float: left;
+}
+.top-bar .right {
+  float: right;
+  padding-top: 5px;
+}
+.top-bar > * {
+  position: relative;
+}
+.top-bar::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  opacity: 0.25;
+  background: radial-gradient(#ffffff, #000000);
+  animation: pulse 1s ease alternate infinite;
+}
+
+.discussion {
+  list-style: none;
+  /*background: #e5e5e5;*/
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+.discussion li {
+  padding: 0.5rem;
+  overflow: hidden;
+  display: flex;
+}
+.discussion .avatar {
+  width: 40px;
+  position: relative;
+}
+.discussion .avatar img {
+  display: block;
+  width: 100%;
+}
+
+.other .avatar:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.self {
+  justify-content: flex-end;
+  /*
+  align-items: flex-end;
+    align-items: center;*/
+}
+.self .messages {
+  order: 1;
+  border-bottom-right-radius: 0;
+}
+.self .avatar {
+  order: 2;
+}
+.self .avatar:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+
+@keyframes pulse {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+.round { background-color:#5ba6e7; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.time { position:relative; top: 45px; color:#000; font-weight:600;}
+.time2 { float:left; padding-left:0px; color:#000; font-weight:600;}
+
+.personName {  padding-left:0px; color:#5586e5; font-weight:600;}
+.personSay {   padding-left:0px; color:#000; font-weight:600;}
+
+.personName2 { float: right;  padding-left:0px; color:#5586e5; font-weight:600;}
+.personSay2 {  float: right; padding-left:0px; color:#000; font-weight:600;}
+
+.msg_content_container{
+    background: #e5e5e5;
+    border-top: 1px solid #f2f2f2;
+  /*  padding: 0 0 20px 20px;*/
+    /*width: 100%;*/
+}
+
+.room_list_bg01{
+   border-bottom: 1px solid #c3c3c3;
+   background-color: #FAFAFA;
+   padding: 5px;
+}
+.room_list_bg02{
+   border-bottom: 1px solid #c3c3c3;
+   padding:5px;
+}
+
+.bubble{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+    float: left;   
+    margin: 5px 45px 5px 20px; 
+    border-color: #cdecb0;
+     
+}
+
+.bubble::before {
+    background-color: #F2F2F2;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px; 
+    
+    }
+
+.bubble{
+        background-color: #F2F2F2;
+        border-radius: 5px;
+        box-shadow: 0 0 6px #B2B2B2;
+        display: inline-block;
+        padding: 10px 18px;
+        position: relative;
+        vertical-align: top;
+        margin: 2px 20px;
+        border-color: #cdecb0;
+        width: 60%;
+        
+}
+
+bubble2{
+    background-color: #dfeecf;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+    float: left;   
+    margin: 5px 45px 5px 20px; 
+    border-color: #cdecb0;
+    
+      }
+
+.bubble2::before {
+
+float:right;
+    background-color: #dfeecf;
+    content: "\00a0";
+    display: block;
+    height: 19px;
+    position: absolute;
+    position:relative;
+    left: 26px;
+    top: 0px;
+    transform:             rotate( 205deg ) skew( -35deg );
+        -moz-transform:    rotate( 205deg ) skew( -35deg );
+        -ms-transform:     rotate( 205deg ) skew( -35deg );
+        -o-transform:      rotate( 205deg ) skew( -35deg );
+        -webkit-transform: rotate( 205deg ) skew( -35deg );
+    width:  20px;
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+     
+    }
+
+.bubble2{
+        float: right;
+        width: 60%;
+        background-color: #dfeecf;
+        border-radius: 5px;
+        box-shadow: 0 0 6px #B2B2B2;
+        display: inline-block;
+        padding: 10px 18px;
+        position: relative;
+        vertical-align: top;
+        margin: 0px 20px;
+        border-color: #cdecb0;
+}        
+
+.messages .personSay {
+  font-size: 1.2rem;
+  margin: 0 0 0.2rem 0;
+}
+.messages .chat_name{
+ font-size: 1.2rem;
+ color: #5586e5; 
+ font-weight:600;  
+}
+
+.seen_by {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.delete_convo {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.messages .timesent {
+  font-size: 1rem;
+  color: #848383;
+}
+.messages .sending_seen_icon{
+    font-size: 0.9rem;
+}
+
+
+

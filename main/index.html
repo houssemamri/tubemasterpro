@@ -1,0 +1,864 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!-- TITLE OF SITE -->
+    <title>TubeTargetPro Bro</title>
+
+    <meta name="description" content="Responsive Landing Page for Presenting Your Startup: Saas, Mobile or Web Application" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="TubeTargetPro">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- FAVICON  -->
+    <link rel="icon" href="https://www.nathanhague.com/tubetargetpro/main/assets/images/favicon/tlf-favicon-1.png">
+    
+    <!-- =========================
+       STYLESHEETS 
+    ============================== -->
+    
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://www.nathanhague.com/tubetargetpro/main/assets/css/plugins/bootstrap.min.css">
+
+    <!-- FONT ICONS -->
+    <link rel="stylesheet" href="https://www.nathanhague.com/tubetargetpro/main/assets/css/icons/icons.min.css">
+     
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700%7COpen+Sans:300,400,600,700%7CHandlee" rel="stylesheet">
+    
+    <!-- PLUGINS STYLESHEET -->
+    <link rel="stylesheet" href="https://www.nathanhague.com/tubetargetpro/main/assets/css/plugins/plugins.min.css">
+    
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="https://www.nathanhague.com/tubetargetpro/main/assets/css/style.css">
+    <link rel="stylesheet" href="https://www.nathanhague.com/tubetargetpro/main/assets/css/custom.css">
+
+    <!-- RESPONSIVE FIXES -->
+    <link rel="stylesheet" href="https://www.nathanhague.com/tubetargetpro/main/assets/css/responsive.css">
+
+    <!-- COLORE STYLESHEET -->
+    <!-- Change here the Main Color of the Site: Choose your favorite predefined color from assets/css/colors.css -->
+    <link rel="stylesheet" href="https://www.nathanhague.com/tubetargetpro/main/assets/css/colors/green.css" title="green">
+    
+    
+    <!--[if lt IE 9]>
+            <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/plugins/html5shiv.min.js"></script>
+            <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/plugins/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div class="main-wrapper">
+        
+        <!-- =========================
+             PRELOADER
+        ============================== -->
+        <div class="preloader">
+            <div class="loader-container">
+                <div class="text-logo">TubeTargetPro</div>
+                <div class="signal"></div>
+            </div>
+        </div> 
+        
+
+        <!-- =========================
+             HEADER
+        ============================== -->
+        <header class="header video-bg" id="top" data-stellar-background-ratio="0.5">
+            <!-- Background Overlay -->
+            <div class="overlay">
+
+                <!-- =========================================
+                     Navigation
+                ========================================== -->
+                <nav class="navbar navbar-fixed-top" role="navigation">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- Navbar-Header -->
+                                <div class="navbar-header">
+                                    
+                                    <!-- Mobile Menu -->
+                                    <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                                        <i class="icon icon_menu"></i>
+                                    </button>
+
+                                    <!-- Text-Logo -->
+                                    <a href="#top" class="navbar-brand scrollto" title="TubeTargetPro">
+                                        <!--
+
+                                        <span class="text-logo">Tube Target Pro</span>
+                                    -->
+                                    <img src="assets/images/TLF-logo-white.small.png" style="margin-top:-20px;">
+
+                                    </a> 
+
+                                    <!-- Image-Logo: Remove this comments and the section above Text-Logo if you want to add an Image-Logo (recommended sizes -> max-height:50, max-width:200) 
+
+                                    <a href="#top" class="navbar-brand img-logo scrollto" title="SmartMvp">
+                                        <img src="assets/images/logo.png" alt="Logo">
+                                    </a> 
+                                    -->
+
+                                </div><!-- /End Navbar-Header -->
+
+                                <!-- Navbar-Collapse -->
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <!-- Menu Items -->
+                                        <li><a href="#about" title="" class="scrollto">About</a></li>
+                                        <li><a href="#features" title="" class="scrollto">Features</a></li>
+                                        <li><a href="#pricing" title="" class="scrollto">Pricing</a></li>
+                                        <li><a href="#testimonials" title="" class="scrollto">Testimonials</a></li>
+                                        <!-- Login and Signup Modal on click -->
+                                    </ul>
+                                </div><!-- /End Navbar-Collapse -->
+                            </div><!-- /End Col -->
+                        </div><!-- /End Row -->
+                    </div><!-- /End Container -->
+                </nav><!-- /End Sticky Navigation -->
+
+
+                <!-- =========================================
+                     Login/Signup Bootstrap Modal
+                ==========================================  -->
+                <!-- Modal -->
+                <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="padding: 25px;">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h1 class="modal-title">Log In</h1>
+                                 <p>Please login with your email and password below.</p>
+                                 <div style="display:none;" class="alert alert-info" id="infoMessage"><p></p></div>
+                            </div>
+	                        <form id="login_form" action="" method="post" accept-charset="utf-8">
+	                            <div class="modal-body text-left">
+								    <div class="form-group has-error has-feedback">
+								        <label for="identity">Email:</label>
+								        <input type="text" name="identity" value="" id="identity" class="form-control validify_required validify_email">
+								        <span style="display:none;" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+										<span style="display:none;" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>    
+								    </div>
+								
+								    <div class="form-group has-error has-feedback">
+								        <label for="password">Password:</label>
+								        <input type="password" name="password" value="" id="password" class="form-control validify_required validify_password_login">
+								        <span style="display:none;" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+										<span style="display:none;" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>    
+								    </div>
+								
+								    <p class="text-right">
+								        <label for="remember">Remember Me:</label>
+								        <input type="checkbox" name="remember" value="1" id="remember">
+								    </p>
+								    
+								    <p class="text-right">
+									    <a href="../auth/forgot_password" style="font-size:12px;">Forgot your password?</a>
+								    </p>
+								
+	                            </div>
+	                            <div class="modal-footer">
+	                                <input type="submit" name="submit" value="Login" class="btn btn-primary validify_button">
+	                            </div>
+							</form>
+                        </div> <!-- /.modal-content -->
+                    </div> <!-- /.modal-dialog -->
+                </div> <!-- /.modal -->
+
+                 <!-- Modal -->
+                <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h1>Sign Up</h1>
+								<p>Please enter your information below.</p>
+                            </div>
+							<form action="https://www.nathanhague.com/tubetargetpro/warroom/warroom_ajax/signup" method="post" accept-charset="utf-8" id="signup_form" rel="async" autocomplete="off">
+                            	<div class="modal-body text-left">
+								    <div class="form-group has-error has-feedback">
+								        <label for="first_name">First Name:</label> <br>
+								        <input type="text" name="first_name" value="" id="first_name" class="form-control validify_required validify_alpha">
+								    
+										<span style="display:none;" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+										<span style="display:none;" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>    
+								    </div>
+								
+								    <div class="form-group has-error has-feedback">
+								        <label for="last_name">Last Name:</label> <br>
+								        <input type="text" name="last_name" value="" id="last_name" class="form-control validify_required validify_alpha">
+								    
+										<span style="display:none;" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+										<span style="display:none;" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>    
+								    </div>
+								    
+								    <div class="form-group has-error has-feedback">
+								        <label for="email">Email:</label> <br>
+								        <input type="text" name="email" value="" id="email" class="form-control validify_required validify_email_ajax" data-placement="top" data-trigger="manual" title="Email already exists!">
+								    	
+										<span style="display:none;" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+										<span style="display:none;" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>    
+								    </div>
+								
+								    <div class="form-group has-error has-feedback">
+								        <label for="password">Password:</label> <br>
+								        <input type="password" name="password" value="" id="password" class="form-control validify_required validify_password" data-placement="top" data-toggle="tooltip" data-trigger="manual" title="min 8 characters" />
+								    	
+										<span style="display:none;" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+										<span style="display:none;" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>    
+								    </div>
+								
+								    <div class="form-group has-error has-feedback">
+								        <label for="password_confirm">Confirm Password:</label> <br>
+								        <input type="password" name="password_confirm" value="" id="password_confirm" class="form-control validify_required validify_password_confirm">
+								    	
+										<span style="display:none;" class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+										<span style="display:none;" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>    
+								    </div>
+	                            </div>
+	                            <div class="modal-footer">
+	                                <input type="submit" name="submit" value="Sign Up" class="btn btn-primary validify_button">
+	                            </div>
+							</form>
+                        </div> <!-- /.modal-content -->
+                    </div> <!-- /.modal-dialog -->
+                </div> <!-- /.modal -->
+
+                
+                <!-- =========================================
+                     Hero-Section
+                ========================================== -->
+
+                <div class="container vmiddle">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="hero-section">
+
+                                <h1 class="text-white">2X YOUR TRAFFIC//2X YOUR SALES</h1>
+                                <p class="text-white">THE ULTIMATE VIDEO TARGETING TOOL FOR THE SUCCESSFUL MARKETER</p>
+
+
+                                <div class="btn-box">
+                                    <!-- <a href="#about" class="btn btn-ghost scrollto">Learn More</a> -->
+                                    <a href="#canvas-bg" class="btn btn-color scrollto"><i class="icon arrow_carrot-2dwnn_alt"></i>Try it for Free</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /End Background Overlay -->
+        </header>
+        <!-- =========================
+             /END HEADER
+        ============================== -->
+
+        
+        <!-- =================================
+             SECTION ABOUT - INTRO FEATURES
+        ====================================== -->
+        <section class="intro-features" id="about">
+            <div class="container">
+                <!-- Padding -->
+                <div class="wrapper-lg">
+                    <div class="row">
+                        <!-- Section Header Title -->
+                        <div class="col-xs-12">
+                            <h2>It's about making ideas happen</h2>
+                            <p class="large">Spend less time worrying about front-end and more focusing on your product.</p>
+                        </div>
+                    </div>
+                    <!-- Three Main Features with Icons -->
+                    <div class="row">
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-mobile"></i>
+                            </div>
+                            <h4>REACH NEW CUSTOMERS</h4>
+                            <p>Attract the perfect customer</p>
+                        </div>
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-browser"></i>
+                            </div>
+                            <h4>MAXIMIZE YOUR BUDGET</h4>
+                            <p>Benefit from the largest search engine</p>  
+                        </div>
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-documents"></i>
+                            </div>
+                            <h4>EXPLODE YOUR INCOME</h4>
+                            <p>More traffic, more money</p>
+                        </div>
+                    </div><!-- /End Row -->
+                </div><!-- /End Wrapper -->
+            </div><!-- /End Container -->
+        </section>
+        <!-- =============================
+             /END INTRO FEATURES
+        ============================== -->
+        
+        
+        <!-- ==================================================
+             SECTION 2 COLS - IMAGE RIGHT AND TEXT WITH CALL TO ACTION
+        ======================================================= -->
+        <section class="img-with-action light-bg">
+            <div class="container wrapper-lg">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5">
+                        <!-- Text Col -->
+                        <h3>Still Using Expensive Advertising Methods?</h3>
+                        <p>Find out why the leading marketers and gurus are leaving Facebook and joining the video advertising revolution.</p>
+                        <!-- Call To Action Buttons -->
+                        <div class="btn-box">
+                            <a href="#features" class="btn btn-grey scrollto">Learn More</a>
+                            <a href="#canvas-bg" class="btn btn-color scrollto"><i class="icon arrow_carrot-2dwnn_alt"></i>Try it for Free</a>
+                        </div>
+                        <!-- Div Required for Correct Charts Animation -->
+                        <div class="start-charts"></div>
+                    </div>
+                </div><!-- /End Row-->
+            </div><!-- /End Container-->
+            <!-- Image Col -->
+            <div class="hidden-sm hidden-xs col-md-6 img-col-bg img-right"></div>
+        </section>
+        <!-- =============================
+             /END SECTION 
+        ============================== -->
+        
+
+        <!-- ==================================================
+            CHARTS & SHOWCASE SECTION
+        ======================================================= -->
+        <section class="charts" id="charts">
+            <div class="container">
+                <div class="wrapper-lg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>DONE-FOR-YOU SOFTWARE + TRAINING</h2>
+                            <p class="large">EVERYTHING YOU NEED TO MAXIMIZE VISIBILITY, DECREASE SPENDING,
+GET TONS MORE CONVERSIONS!</p>
+                        </div>
+                    </div>
+
+            
+                    
+                    <div class="row showcase">
+                        <div class="col-md-4">
+                            <h4>100% RISK FREE
+Tube Target Pro comes with a full NO questions asked, 30-day money back guarantee!</h4>
+                            <p><strike>$297</strike> SAVE $100 TODAY!</p>
+                            <p> <a href="#canvas-bg" class="btn btn-color scrollto"><i class="icon arrow_carrot-2dwnn_alt"></i>Get it here!</a></p>
+                        </div>
+                        <div class="col-md-8">
+                            <!-- Devices Image -->
+                            <div class="img-box">
+                                <img src="assets/images/showcase.png" alt="" class="img-responsive">
+                                <a href="http://youtu.be/SZEflIVnhH8" data-type="youtube" class="venobox video-player"><i class="icon arrow_triangle-right_alt2 wow fadeIn" data-wow-duration="2s"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- /End Chart-Box -->
+
+                </div><!-- /End Wrapper -->
+            </div><!-- /End Container -->      
+        </section>
+        <!-- =============================
+             /END CHARTS SECTION 
+        ============================== -->
+  
+
+          <!-- ==================================================
+            CHARTS & SHOWCASE SECTION
+        ======================================================= -->
+        <section class="charts" id="charts">
+            <div class="container">
+                <div class="wrapper-lg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>THE TIME TO ADVERTISE ON YOUTUBE IS NOW!</h2>
+                            <p class="large">YOUTUBE SERVES MORE THAN 1 BILLION UNIQUE USERS EACH MONTH</p>
+                        </div>
+                    </div>
+
+                    <div class="row doughnut-box">
+                        <div class="col-md-5">
+                            <!-- Div Required for Correct Line Chart Animation -->
+                            <div class="start-line"></div>
+                            <!-- Chart Text Description -->
+                            <h4>REACH NEW CUSTOMERS EVERYWHERE</h4>
+                            <p>According to Nielsen, YouTube reaches more US adults ages 18-34 than any cable network. Millions of subscriptions happen each day. Video advertising lets you instantly engage new and current customers all over the planet. With the right targeting tools, you can specify which country, zipcode, interest, income level of your consumer. Consider who else in the world could benefit from your product or service.</p>
+                            <p><a href="#canvas-bg" class="scrollto"><strong>Join with us. It will only take a minute ›</strong></a></p>
+                        </div>
+                        <div class="col-md-7">
+                            <!-- Doughnut Charts  -->
+                            <div id="canvas-holder">
+                                <div class="chart-text">
+                                    100&#37;<span>Crafted with<br> Passion</span>
+                                </div>
+                                <canvas id="chart-area" width="400" height="400"></canvas>
+                            </div>
+                            <div id="canvas2-holder">
+                                <div class="chart2-text">
+                                    827<span>Cups of<br>Coffee</span>
+                                </div>
+                                <canvas id="chart2-area" width="300" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div><!-- /End Chart-Box -->
+                        
+                    <div class="row chart-box">
+                        <div class="col-md-6 col-md-push-6 col-sm-12">
+                            <!-- Chart Text Description -->
+                            <h4>ULTRA LOW-COST ADVERTISING</h4>
+                            <p>Videos can increase shopping cart sizes by an 174%. Unlike trying to run your video ad through broadcast channels, which will cost thousands and thousands of dollars, Youtube advertising literally costs pennies on the dollar. Imagine streaming your ads to the millions of mobile devices and desktops that consumer more than 6 billion hours of content each month!</p>
+                            <p><a href="#features" class="scrollto"><strong>Learn how customize SmartMvp ›</strong></a></p>
+                        </div>
+                        <div class="col-md-6 col-md-pull-6 col-sm-12">
+                            <!-- Line Chart -->
+                            <div class="line-canvas">
+                                <div>
+                                    <canvas id="line-canvas" height="450" width="600"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /End Chart-Box -->
+                    
+                    <div class="row showcase">
+                        <div class="col-md-4">
+                            <h4>EASY TO USE INTERFACE</h4>
+                            <p>Most digital advertising platforms are complex and lengthy. Tube Target Pro lets you search for your perfect audience, setup your campaign, and integrate to your Adwords, all in one.</p>
+                            <p><a href="#mobile-download" class="scrollto"><strong>Download the App for your smartphone ›</strong></a></p>
+                        </div>
+                        <div class="col-md-8">
+                            <!-- Devices Image -->
+                            <div class="img-box">
+                                <img src="assets/images/showcase.png" alt="" class="img-responsive">
+                                <a href="http://youtu.be/SZEflIVnhH8" data-type="youtube" class="venobox video-player"><i class="icon arrow_triangle-right_alt2 wow fadeIn" data-wow-duration="2s"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- /End Chart-Box -->
+
+                    <div class="row ">
+                         <div class="col-md-7">
+                            <div class="img-box">
+                                <img src="assets/images/TTP-Educational-Bit.png" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <!-- Div Required for Correct Line Chart Animation -->
+                            <div class="start-line"></div>
+                            <!-- Chart Text Description -->
+                            <h4>DID YOU KNOW: DIGITAL VIDEO ADVERTISING IS OUTPACING EVERY OTHER FORM OF MARKETING BY MORE THAN 2X?</h4>
+                            <p>According to Nielsen, YouTube reaches more US adults ages 18-34 than any cable network. In addition, 75% of executives watch videos at least once a week, 50% watch videos on YouTube, and 65% visit the website after viewing a video.</p>
+                            <p><a href="#canvas-bg" class="scrollto"><strong>Join with us. It will only take a minute ›</strong></a></p>
+                        </div>
+                       
+                    </div><!-- /End Chart-Box -->
+
+                </div><!-- /End Wrapper -->
+            </div><!-- /End Container -->      
+        </section>
+        <!-- =============================
+             /END CHARTS SECTION 
+        ============================== -->
+
+
+
+        <!-- =================================
+             SECTION ABOUT - INTRO FEATURES
+        ====================================== -->
+        <section class="intro-features" id="about">
+            <div class="container">
+                <!-- Padding -->
+                <div class="wrapper-lg">
+                    <div class="row">
+                        <!-- Section Header Title -->
+                        <div class="col-xs-12">
+                            <h2>The World’s Most Powerful Video Advertising Tool!</h2>
+                            <p class="large">Tube Target Pro is filled with market crushing tools and features.</p>
+                        </div>
+                    </div>
+                    <!-- Three Main Features with Icons -->
+                    <div class="row">
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-mobile"></i>
+                            </div>
+                            <h4>ULTIMATE TARGETING TOOL</h4>
+                            <p>Everything you need to record, schedule, publish, track or import your podcast.</p>
+                        </div>
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-browser"></i>
+                            </div>
+                            <h4>VIDEO KEYWORD SEARCH</h4>
+                            <p>Powerful drag and drop audio page editor lets you create viral engagement.</p>  
+                        </div>
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-documents"></i>
+                            </div>
+                            <h4>DATE SORTER</h4>
+                            <p>APersuade listeners to complete specific actions with audio player gateways.</p>
+                        </div>
+                    </div><!-- /End Row --> <br><br>
+                    <div class="row">
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-mobile"></i>
+                            </div>
+                            <h4>KEYWORD TOOL</h4>
+                            <p>Create custom collections of audio or podcast episodes.</p>
+                        </div>
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-browser"></i>
+                            </div>
+                            <h4>VIEW SORTER</h4>
+                            <p>Trigger buy buttons or opt in forms at specific times during your audio.</p>  
+                        </div>
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-documents"></i>
+                            </div>
+                            <h4>CAMPAIGN BUILDER</h4>
+                            <p>Create engagement or support bars to communicate directly with site visitors.</p>
+                        </div>
+                    </div><!-- /End Row --> <br><br>
+                     <div class="row">
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-mobile"></i>
+                            </div>
+                            <h4>CHANNEL SEARCH</h4>
+                            <p>The industry’s most advanced and in-depth audio and podcast analytics.</p>
+                        </div>
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-browser"></i>
+                            </div>
+                            <h4>ENGAGEMENT SORTER</h4>
+                            <p>Automatically create A/B tests for any audio files based on custom criteria.</p>  
+                        </div>
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-documents"></i>
+                            </div>
+                            <h4>LIST STORAGE</h4>
+                            <p>Customise and build your perfect viral podcast or audio player.</p>
+                        </div>
+                    </div><!-- /End Row -->                   
+                </div><!-- /End Wrapper -->
+            </div><!-- /End Container -->
+        </section>
+        <!-- =============================
+             /END INTRO FEATURES
+        ============================== -->
+
+        
+    
+         <!-- =======================================================
+             TESTIMONIALS WITH PRESS/CLIENTS LOGOS
+        ============================================================ -->
+        <section class="testimonial-press light-bg" id="testimonials">
+            <div class="container vmiddle">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>What our users are saying</h2>
+                        <p class="large">Find out why our users keep using TubeTargetPro</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="tabs testimonials tab-container">
+                        <div class="col-md-8">
+                            <div class="panel-container">
+                                <div class="tab-block" id="tab-testimonials-1">
+                                    <blockquote>
+                                        <!-- Testimonial quote -->
+                                        <p>I’m completely blown away by the ease of using Tube Target Pro. My campaigns have doubled and tripled their worth from the very first use.
+They turned a very complex and time consuming process into something simple and easy for me to use. I get incredible results for my business and those my clients everytime. Wow!</p>
+                                        <!-- Testimonial image -->
+                                        <img src="assets/images/testimonials/testimonial-1.jpg" alt=" ">
+                                        <!-- Testimonial info -->
+                                        <p class="testimonial-name"><span>Brandee Sweesy</span>Hangouts For Business</p>
+                                    </blockquote>
+                                </div><!-- /End Tab-block -->
+                              
+                            </div><!-- /End Panel-container -->
+                        </div><!-- /End Col -->
+                            
+                        <ul class="etabs col-md-4 list-unstyled">
+                            <li class="tab col-md-6">
+                                <a href="#tab-testimonials-1">
+                                    <!-- Testimonial logo -->
+                                    <img src="assets/images/press-logos/press-3.png" alt="">
+                                </a>
+                            </li>
+                            
+                        </ul><!-- /End Etabs --> 
+
+                    </div><!-- /End Tabs --> 
+                </div><!-- /End Row -->
+            </div><!-- /End Container -->
+        </section>
+        <!-- =============================
+             /END TESTIMONIALS
+        ============================== -->
+
+
+    
+        <!-- ==================================================
+            SIGNUP DIVIDER
+        ======================================================= -->
+        <section id="canvas-bg" class="dark-bg signup-divider">
+            <div class="container">
+                <div class="wrapper-lg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="text-white">Start your free, no-risk 24 hour trial</h2>
+                            <p class="large text-white">No credit card required. You'll know within the first HOUR how GREAT TubeTargetPro is though!</p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Signup Form -->
+                        <form id="signup-divider" role="form">
+                            <!-- Notification -->
+
+                            <!-- Signup Button -->
+                            <a class="btn btn-nav btn-color" data-toggle="modal" href="https://www.nathanhague.com/tubetargetpro/warroom/signup" data-target="#signupModal">Join Today <i class="icon addow_up"></i></a>
+                        </form>
+                    </div><!-- /End Row -->
+                </div><!-- /End Wrapper -->
+            </div><!-- /End Container -->
+        </section>
+        <!-- =============================
+             /END SIGNUP SECTION 
+        ============================== -->
+        
+
+
+
+
+        
+        <!-- ==================================================
+            NEWSLETTER AND SOCIAL DIVIDER
+        ======================================================= -->
+        <section class="newsletter color-bg" id="newsletter">
+            <div class="container">
+                <div class="wrapper-sm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- =========================
+                                Social Icons
+                            ============================== -->
+                            <div class="table">
+                                <div class="table-row">
+                                    <div class="table-cell follow">
+                                        <h5 class="table-title">Follow Us</h5>
+                                    </div>
+                                    <div class="table-cell">
+                                        <ul class="social-list">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="icon icon-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="icon icon-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="icon icon-googleplus"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="icon icon-linkedin"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div><!-- /End Table-Cell -->
+                                </div><!-- /End Table-Row -->
+                            </div><!-- /End Table -->
+                        </div><!-- /End Col -->
+
+                        <div class="col-md-6">
+                            <!-- =========================
+                                MAILCHIMP SUBSCRIPTION FORM 
+                            ============================== -->            
+                            <form class="mailchimp-subscribe" role="form">
+                                <div class="table">
+                                    <div class="table-row">
+                                        <div class="table-cell getnewsletter">
+                                            <h5 class="table-title">Get the Newsletter</h5>
+                                        </div>
+                                        <div class="table-cell">
+                                            <div class="input-group text-white">
+                                                <!-- Input Form -->
+                                                <input type="email" id="subscriber-email" name="email" placeholder="Your email address" class="form-control">
+                                                <!-- Submit Button -->
+                                                <span class="input-group-btn">
+                                                    <button class="btn btn-white">Subscribe</button>
+                                                </span>
+                                            </div><!-- /End Input Group -->
+                                        </div><!-- /End Table-Cell -->
+                                    </div><!-- /End Table-Row -->
+                                </div><!-- /End Table -->
+                                <div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">
+                                    <!-- Notifications --> 
+                                    <p class="mc-success"></p>
+                                    <p class="mc-failed"></p>
+                                </div>
+                            </form><!-- /End Mailchimp Subscribe Form -->
+                                      
+                            <!-- =========================
+                                LOCAL SUBSCRIPTION FORM 
+                            ============================== -->
+                            <!-- ALTERNATE USE: SAVE YOUR SUBSCRIBE LIST IN .TXT
+
+                            <form id="subscribe" role="form">
+                                <div class="table">
+                                    <div class="table-row">
+                                        <div class="table-cell getnewsletter">
+                                            <h5 class="table-title">Get the Newsletter</h5>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell">
+                                        <div class="input-group">
+                                            <input type="email" id="s-email" name="email" placeholder="Your email address" class="form-control">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-color">Submit</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">
+                                    <p class="subscription-success"><i class="icon icon_check_alt2"></i> You are successfully subscribed for our newsletter.</p>
+                                    <p class="subscription-failed"><i class="icon icon_close_alt2"></i> Something went wrong!</p>
+                                </div>
+                            </form>
+                            -->
+
+                        </div><!-- /End Col -->
+                    </div><!-- /End Row -->
+                </div><!-- End Wrapper -->
+            </div><!-- /End Container -->
+        </section>
+        <!-- =============================
+             /END NEWSLETTER SECTION 
+        ============================== -->
+        
+        
+        <!-- ==================================================
+            FOOTER
+        ======================================================= -->
+        <footer class="footer dark-bg" id="footer">
+            <div class="container">
+                <div class="wrapper-lg">
+                    <div class="row">
+                        <!-- Footer Left Col -->
+                        <div class="col-md-5">
+                                <!-- Logo -->
+                                <a href="#top" class="scrollto" title="SmartMvp">
+                                    <span class="text-logo">SmartMvp</span>
+                                </a>
+                                <p class="footer-hero"><strong>600.000</strong> users registered since January.<br>
+                                We've created the product that will help your startup get better marketing results.</p>
+                        </div>
+                        <!-- Footer Contact Col -->
+                        <div class="col-md-3">
+                            <h5 class="text-white">Our Contact</h5>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="icon icon_mail"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <a href="mailto:hi@themedept.com">hi@themedept.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="icon icon_pin"></i>
+                                </div>
+                                <div class="contact-content">
+                                    121 King Street, Melbourne<br>
+                                    Victoria 3000 Australia
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="icon icon_phone"></i>
+                                </div>
+                                <div class="contact-content">
+                                    1-234-567-89
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Footer Right Col: Twitter Feed -->
+                        <div class="col-md-4">
+                                <h5 class="text-white">Recent Tweets</h5>
+                                <div class="tweet"></div>
+                        </div>
+
+                        <!-- Footer Menu and Copy -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="footer-nav">
+                                    <li>
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Help</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy</a>
+                                    </li>
+                                </ul>
+                                <p class="footer-copy">&copy; 2014 - TubeTargetPro</p>
+                            </div>
+                        </div>
+                        
+                    </div><!-- End Row -->
+                </div><!-- /End Wrapper -->
+            </div><!-- /End Container -->
+        </footer>
+
+    </div><!-- /End Main Wrapper -->
+
+
+    <!-- =========================
+         SCRIPTS 
+    ============================== -->
+    <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/plugins/jquery1.11.0.min.js"></script>
+    <!-- <script src="assets/js/plugins/jquery1.11.0.min.js"></script> -->
+    <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/plugins/bootstrap.min.js"></script>
+    <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/plugins/jquery.easing.1.3.min.js"></script>
+    <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/plugins/modernizr.custom.min.js"></script>
+    <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/plugins/plugins.min.js"></script>
+    <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/plugins/twitter/tweetie.min.js"></script>
+    <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/plugins/videobg/videoplugins.min.js"></script>
+    <!-- Custom Script -->
+    <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/custom.js"></script>
+    <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/plugins/videobg/videobg.js"></script>
+    <!-- MAO Script -->
+    <script src="https://www.nathanhague.com/tubetargetpro/assets/js/jquery.validify.js"></script>
+    <script src="https://www.nathanhague.com/tubetargetpro/main/assets/js/script.js"></script>
+    
+
+</body>
+</html>

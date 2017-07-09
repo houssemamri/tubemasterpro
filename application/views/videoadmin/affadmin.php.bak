@@ -1,0 +1,328 @@
+<?php include('includes/header.php');?>
+
+    <!--- PENDING PROCESS TABLE -->
+    <?php if($o['show_table_list']) { ?>
+ <div class="row" style="padding-top: 15px;" >
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><?php echo $o['title']; ?> </div>
+  <!-- Table -->
+  <table class="table">
+<table class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Date Signup</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+            <?php
+                foreach($o['show_pend'] as $sp)
+                 {
+
+             ?>
+          <tr>
+            <th scope="row"><?php echo ucwords($sp['user_name']); ?></th>
+            <td><?php echo $sp['aff_added']; ?></td>
+            <td><a href="<?php echo site_url('/affiliateadmin/check_request/' . $sp['id']);?>"><span class="glyphicon glyphicon-edit"></span> View Details</a></td>
+          </tr>
+        <?php
+            }
+        ?>
+        </tbody>
+      </table>
+  </table>
+</div>
+            </div>
+        </div>
+    </div>
+    <?php } ?>
+  
+
+   
+ <!-- SHOW REQUEST TABLE -->
+     <?php if($o['show_request_table']) { ?>
+ <div class="row" style="padding-top: 15px;" >
+       <div class="col-lg-offset-2 col-lg-8">
+
+              <h4><?php if($o['gc']['aff_status'] == "pending"){ echo "Affiliate Request"; } else { echo "Rejected Request"; } ?></h4>
+<p>
+<input type="hidden" name="baseurl" id="baseurl" value="<?php echo $o['baseurl']; ?>">
+</p>
+<form id="data" method="post" enctype="multipart/form-data" action="<?php echo site_url('affiliateadmin/check_request/' . $o['gc']['id']); ?>">
+<div id="notification"></div>
+<p>
+    <label for="name">Name:</label> 
+    <?php echo ucwords($o['gc']['first_name'] . " " . $o['gc']['last_name']);?>
+<br>
+    <label for="name">Paypal: </label> 
+     <?php echo $o['gc']['paypal_email'];?>
+<br>
+    <label for="name">Company: </label> 
+     <?php echo $o['gc']['company'];?>
+
+<?php if(strlen($o['gc']['phone']) < 3) { ?>
+<br>
+    <label for="name">Phone #: </label> 
+   <?php echo $o['gc']['phone'];?>
+<?php
+  }
+  if(strlen($o['gc']['mobile']) < 3) { 
+?>
+<br>
+    <label for="name">Mobile #: </label> 
+   <?php echo $o['gc']['mobile'];?>   
+<?php
+  }
+?>
+</p>
+<h4>Others</h4>
+<label for="name">Website: </label> 
+<?php echo $o['gc']['company'];?>
+<br>
+<?php if($o['gc']['whatsapp']){ ?> 
+<label for="name">Whatsapp: </label> 
+<i class="fa fa-whatsapp fa-5" style="color:#aad450;font-size: 2em"> <small style="font-size: 14px;"><?php echo $o['gc']['whatsapp']; ?></small></i>&nbsp;&nbsp;<br>
+<?php } ?>
+<label for="name">Social: </label> 
+<?php if($o['gc']['facebook']){ ?> 
+<a href="<?php echo $o['gc']['facebook']; ?>" target="_blank"><i class="fa fa-facebook-official fa-5" style="color:#3b5998;font-size: 2em"></i></a>&nbsp;&nbsp;
+<?php } ?>
+
+<?php if($o['gc']['twitter']){ ?> 
+<a href="<?php echo $o['gc']['twitter']; ?>" target="_blank"><i class="fa fa-twitter-square fa-5" style="color:#00aced;font-size: 2em"></i></a>&nbsp;&nbsp;
+<?php } ?>
+<?php if($o['gc']['google']){ ?> 
+<a href="<?php echo $o['gc']['google']; ?>" target="_blank"><i class="fa fa-google-plus-square fa-5" style="color:#dd4b39;font-size: 2em"></i></a>&nbsp;&nbsp;
+<?php } ?>
+<?php if($o['gc']['linkedin']){ ?> 
+<a href="<?php echo $o['gc']['linkedin']; ?>" target="_blank"><i class="fa fa-linkedin-square fa-5" style="color:#007bb6;font-size: 2em"></i></a>&nbsp;&nbsp;
+<?php } ?>
+<?php if($o['gc']['aff_status'] == "pending"){ ?>
+<hr noshade>
+<p>
+    <label for="name">Admin Response: </label> 
+      <select name="upload_status" class="form-control upload_status">
+      <option value="pending" <?php  if($o['gc']['aff_status'] == 'pending') { echo "selected";}?>>Pending</option>
+      <option value="approved" <?php  if($o['gc']['aff_status'] == 'approved') { echo "selected";}?>>Approved</option>
+      <option value="rejected" <?php  if($o['gc']['aff_status'] == 'rejected') { echo "selected";}?>>Reject</option>
+    </select>
+</p>
+<p>
+    <label for="name">Notes <small>(Optional)</small>: </label> 
+        <textarea name="notes" id="notes" rows="4" cols="20" class="form-control">  <?php echo $o['gc']['notes'];?></textarea>
+</p>
+<p>
+<button name="p" value="submit_request" type="submit" class="btn btn-primary" id="submit_request">Update Detail</button>
+ <input type="hidden" name="user_request_id" id="user_request_id" value="<?php echo $o['gc']['id']; ?>">
+</p>
+<? 
+}
+else
+{
+?>
+<br>
+<label for="name">Admin Response: </label> 
+<strong class="label label-danger"><?php echo strtoupper($o['gc']['aff_status']);?></strong>
+<br>
+<?php
+}
+?>
+</form>
+        </div>
+        </div>
+ </div>
+     <?php } ?>    
+  <!--END UPDATE CONTENT -->          
+    
+<!---- APPROVED LIST -->
+    <?php if($o['approved_users_table']) { ?>
+ <div class="row" style="padding-top: 15px;" >
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><?php echo $o['title']; ?> </div>
+  <!-- Table -->
+  <table class="table">
+<table class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Date Signup</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+            <?php
+                foreach($o['show_pend'] as $sp)
+                 {
+
+             ?>
+          <tr>
+            <th scope="row"><?php echo ucwords($sp['user_name']); ?></th>
+            <td><?php echo $sp['aff_added']; ?></td>
+            <td><a href="<?php echo site_url('/affiliateadmin/view_details/' . $sp['id']);?>"><span class="fa fa-file-text"></span> View Details</a> | <a href="<?php echo site_url('/affiliateadmin/view_summary/' . $sp['id']);?>"><span class="fa fa-money"></span> View Summary</a></td>
+          </tr>
+        <?php
+            }
+        ?>
+        </tbody>
+      </table>
+  </table>
+</div>
+            </div>
+        </div>
+    </div>
+    <?php } ?>
+<!-- END APPROVED LIST -->
+<!-- SHOW APPROVED USER TABLE -->
+<?php if($o['show_user_approved_table']) {  ?>
+ <div class="row" style="padding-top: 15px;" >
+       <div class="col-lg-offset-2 col-lg-8">
+              <h4>Affiliate detail of  <?php echo ucwords($o['gc']['first_name'] . " " . $o['gc']['last_name']);?></h4>
+<p>
+<input type="hidden" name="baseurl" id="baseurl" value="<?php echo $o['baseurl']; ?>">
+</p>
+<form id="data" method="post" enctype="multipart/form-data" action="<?php echo site_url('affiliateadmin/check_request/' . $o['gc']['id']); ?>">
+<div id="notification"></div>
+<p>
+  <label for="name">Status: </label> 
+<?php echo $o['gc']['aff_status'];?> <br>
+<label for="name">Paypal: </label> 
+<?php echo $o['gc']['paypal_email'];?>
+<br>
+
+    <label for="name">Company: </label> 
+     <?php echo $o['gc']['company'];?>
+
+<?php if(strlen($o['gc']['phone']) < 3) { ?>
+<br>
+    <label for="name">Phone #: </label> 
+   <?php echo $o['gc']['phone'];?>
+<?php
+  }
+  if(strlen($o['gc']['mobile']) < 3) { 
+?>
+<br>
+    <label for="name">Mobile #: </label> 
+   <?php echo $o['gc']['mobile'];?>   
+<?php
+  }
+?>
+</p>
+<h4>Others</h4>
+<label for="name">Website: </label> 
+<?php echo $o['gc']['company'];?>
+<br>
+<?php if($o['gc']['whatsapp']){ ?> 
+<label for="name">Whatsapp: </label> 
+<i class="fa fa-whatsapp fa-5" style="color:#aad450;font-size: 2em"> <small style="font-size: 14px;"><?php echo $o['gc']['whatsapp']; ?></small></i>&nbsp;&nbsp;<br>
+<?php } ?>
+<label for="name">Social: </label> 
+<?php if($o['gc']['facebook']){ ?> 
+<a href="<?php echo $o['gc']['facebook']; ?>" target="_blank"><i class="fa fa-facebook-official fa-5" style="color:#3b5998;font-size: 2em"></i></a>&nbsp;&nbsp;
+<?php } ?>
+
+<?php if($o['gc']['twitter']){ ?> 
+<a href="<?php echo $o['gc']['twitter']; ?>" target="_blank"><i class="fa fa-twitter-square fa-5" style="color:#00aced;font-size: 2em"></i></a>&nbsp;&nbsp;
+<?php } ?>
+<?php if($o['gc']['google']){ ?> 
+<a href="<?php echo $o['gc']['google']; ?>" target="_blank"><i class="fa fa-google-plus-square fa-5" style="color:#dd4b39;font-size: 2em"></i></a>&nbsp;&nbsp;
+<?php } ?>
+<?php if($o['gc']['linkedin']){ ?> 
+<a href="<?php echo $o['gc']['linkedin']; ?>" target="_blank"><i class="fa fa-linkedin-square fa-5" style="color:#007bb6;font-size: 2em"></i></a>&nbsp;&nbsp;
+<?php } ?> 
+<p>
+  <button name="p" value="back" type="button" class="btn btn-danger" id="back" onclick="window.location.replace('<?php echo site_url('/affiliateadmin/affiliate_member');?>');">Back</button>
+    <button name="p" value="back" type="button" class="btn btn-info" id="back" onclick="window.location.replace('<?php echo site_url('/affiliateadmin/view_summary/' . $o['gc']['id']);?>');">View Summary</button>
+ <input type="hidden" name="user_request_id" id="user_request_id" value="<?php echo $o['gc']['id']; ?>">
+</p>
+
+</form>
+        </div>
+        </div>
+ </div>
+<?php
+}
+if($o['show_user_affiliate_table']){
+?>
+<br>
+<div class="panel panel-default ">
+  <!-- Default panel contents -->
+  
+   <div class="panel-heading"><strong>Affiliate Account Overview</strong></div>
+  <!-- Table -->
+  <table class="table">
+    <tr>
+      <td><strong>Affiliate ID:</strong> </td>
+      <td><?php echo $o['gc']['is_aff']; ?></td>
+    </tr>
+  <tr>
+      <td><strong>Affiliate Referral Link:</strong> </td>
+      <td><a href="<?php echo site_url("/signup/aff/{$o['gc']['is_aff']}"); ?>" class="alert-link"><?php echo site_url("/signup/aff/{$o['gc']['is_aff']}"); ?></a> </td>
+    </tr>    
+    <tr>
+      <td><strong>Signups:</strong> </td>
+      <td><?php echo $o['affiliate_count']; ?></td>
+    </tr>  
+    <tr>
+      <td><strong>Active Users:</strong> </td>
+      <td><?php echo $o['active_count_users']; ?></td>
+    </tr>     
+     <tr >
+      <td colspan="2"><button name="p" value="back" type="button" class="btn btn-danger" id="back" onclick="window.location.replace('<?php echo site_url('/affiliateadmin/view_details/' . $o['gc']['id']);?>');">Back</button></td>
+    </tr>          
+  </table>
+</div>
+<?php
+  if($o['show_user_aff_table']){
+?>
+
+  <div class="panel panel-default ">
+  <!-- Default panel contents -->
+ <div class="panel-heading"><strong>Referral Signups (<small>user that paid</small>)</strong></div>
+  <!-- Table -->
+  <table class="table">
+    <tr>
+      <td><strong>Signup date</strong> </td>
+       <td><strong>Name</strong></td>
+      <td><strong>Comission</strong></td>
+      <td><strong>Status</strong></td>
+    </tr>
+    <?php foreach($o['show_ud'] as $su) { ?>
+    <tr>
+      <td><?php echo $su['date_confirmed']; ?></td>
+      <td><?php echo '$ 67.00 ' . $su['curr']; ?></td>
+      <td>
+        <?php if($su['p_status'] == 'ACTIVE') { ?>
+          <span class="label label-success"><?php echo $su['p_status']; ?></span>
+        <?php } else { ?>
+          <span class="label label-danger"><?php echo $su['p_status']; ?></span>
+        <?php } ?>
+      </td>
+    </tr> 
+    <?php } ?>      
+  </table>
+</div>
+<?php
+}
+}
+?>
+<!-- END SHOW APPROVED USER TABLE -->
+</div> <!-- /container -->
+<div id="footer">
+    <div class="container">
+      <p class="footer-content">
+      
+    </p>
+    </div>
+</div>
+
+
+<script src="<?php echo assets_url('js/jquery.min.js'); ?>"></script>
+<script src="<?php echo assets_url('js/bootstrap.min.js'); ?>"></script>
+<script src="<?php echo assets_url('js/main.js'); ?>"></script>
+
+<?php include('includes/footer.php');?>

@@ -1,0 +1,24 @@
+[06-02-2015 05:59:53] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.sandbox.paypal.com/v1/payments/payouts?sync_mode=true
+[06-02-2015 06:00:04] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[06-02-2015 06:00:28] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.sandbox.paypal.com/v1/payments/payouts?
+[06-02-2015 06:00:31] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[06-02-2015 06:12:07] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.sandbox.paypal.com/v1/payments/payouts?
+[06-02-2015 06:12:10] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[06-02-2015 06:12:51] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.sandbox.paypal.com/v1/payments/payouts?
+[06-02-2015 06:12:53] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[06-02-2015 06:13:45] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.sandbox.paypal.com/v1/payments/payouts?
+[06-02-2015 06:13:47] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 400
+[06-02-2015 06:13:47] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payouts?. {"name":"MALFORMED_REQUEST_ERROR","message":"Json request malformed.","debug_id":"a639f3bc7135e","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#MALFORMED_REQUEST_ERROR"}
+[06-02-2015 06:16:00] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.sandbox.paypal.com/v1/payments/payouts?
+[06-02-2015 06:16:02] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 400
+[06-02-2015 06:16:02] PayPal\Core\PayPalHttpConnection: ERROR	: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payouts?. {"name":"MALFORMED_REQUEST_ERROR","message":"Json request malformed.","debug_id":"0fd0f7b15288c","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#MALFORMED_REQUEST_ERROR"}
+[06-02-2015 06:16:54] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.sandbox.paypal.com/v1/payments/payouts?
+[06-02-2015 06:16:57] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[06-02-2015 06:19:05] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.sandbox.paypal.com/v1/payments/payouts?
+[06-02-2015 06:19:09] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[06-02-2015 06:20:49] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.sandbox.paypal.com/v1/payments/payouts?sync_mode=true
+[06-02-2015 06:20:58] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[06-02-2015 06:22:02] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.sandbox.paypal.com/v1/payments/payouts?sync_mode=true
+[06-02-2015 06:22:08] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201
+[06-02-2015 06:24:26] PayPal\Core\PayPalHttpConnection: INFO	: POST https://api.sandbox.paypal.com/v1/payments/payouts?sync_mode=true
+[06-02-2015 06:24:34] PayPal\Core\PayPalHttpConnection: INFO	: Response Status 	: 201

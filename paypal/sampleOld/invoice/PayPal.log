@@ -1,0 +1,20 @@
+[08-01-2015 10:31:21] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-01-2015 10:31:21] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:31:21] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:31:21] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:31:21] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 21307064331350142078508057056
+[08-01-2015 10:31:21] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-01-2015 10:31:22] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"AUTHORIZATION_ERROR","message":"Authorization error occurred.","debug_id":"4b79e501383cd"}
+
+
+[08-01-2015 10:31:25] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-01-2015 10:31:25] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-01-2015 10:31:25] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.16.1 (lang=PHP;v=5.5.10;bit=64;os=Darwin_14.0.0;machine=x86_64;openssl=0.9.8r;curl=7.28.1)
+[08-01-2015 10:31:25] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015371r16gmnzwwDT3AFnMt2sY6Lr6YHbyuT8dcgoQMNYU
+[08-01-2015 10:31:25] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 2130706433135014207850853204
+[08-01-2015 10:31:25] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-01-2015 10:31:27] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"AUTHORIZATION_ERROR","message":"Authorization error occurred.","debug_id":"fb0f4a6634ed7"}
+
+

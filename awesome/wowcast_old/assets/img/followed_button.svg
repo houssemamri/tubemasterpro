@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>followed_button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="blab-landing-logged-in" sketch:type="MSArtboardGroup" transform="translate(-1089.000000, -652.000000)">
+            <g id="Rectangle-303-Copy-+-Sign-In-Copy-Copy-Copy-Copy-Copy" sketch:type="MSLayerGroup" transform="translate(1066.000000, 642.000000)">
+                <g id="followed_button" transform="translate(22.000000, 8.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-82-Copy" x="0" y="0" width="14" height="14"></rect>
+                    <path d="M12.7558067,3.41478834 L5.40741446,11.4558008 L1.61809352,7.70926177 L2.90038797,6.44144458 L5.29228964,8.80634141 L11.4159499,2.20327822 L12.7558067,3.41478834 Z" id="Path-Copy-5" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

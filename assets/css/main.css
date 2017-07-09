@@ -1,0 +1,332 @@
+body > .container {
+  margin-top: 50px;
+}
+
+#footer > .container {
+    /* Align with the navbar container */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-content {
+    margin: 15px 0;
+    color: #999;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 50px;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+}
+
+.navbar-inverse {
+  background-color: white;
+  border-color: #e7e7e7;
+}
+
+.right-side, .left-side {
+  min-height: 100%;
+  display: block;
+}
+
+.left-side {
+  position: absolute;
+  width: 203px;
+  top: 0;
+}
+
+.left-side{
+  background:#343838;
+/*  margin-top:7px;
+*/  width: 220px !important;
+  top:50px;
+}
+
+.right-side {
+  background: #343838 !important;
+}
+
+.right-side {
+  background-color: #f9f9f9;
+  margin-left: 203px;
+}
+
+.content {
+  padding: 20px 40px;
+  background: #e7e7e7;
+  min-height: 660px;
+}
+
+.content {
+  margin-top: 33px;
+  margin-left: 17px;
+  padding: 40px;
+  padding-top: 20px;
+  min-height: 620px;
+}
+
+.paginate {
+  float: right;
+  margin: 10px 0;
+}
+
+.paginate #nextPage {
+  margin-left: 5px;
+}
+
+#search-group {
+  padding: 0 15px;
+}
+
+#progress-main {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-left: -25%;
+  margin-top: -5%;
+}
+
+#progress-containter {
+  margin: 10px 0;
+  display: none;
+}
+
+#search_result,
+#right-side,
+#links,
+.row-target2,
+.list_name_input,
+.rename_list,
+#update-target,
+#cancel-search,
+#copy-description,
+#resume-search-button {
+  display: none;
+}
+
+#cancel-notice {
+  display: none;
+  color: white;
+  font-weight: bolder;
+}
+
+#search-result > p {
+  font-weight: bolder;
+}
+
+#target_lists > .row {
+	background: #f7f7f7;
+	padding: 10px;
+	border: 1px solid #e0e0e0;
+	padding-bottom: 0px;
+}
+
+#target_lists .row-target2 {
+	border: 1px solid #e0e0e0;
+	border-top: none;
+	padding: 0;
+}
+
+#target_lists .row-target2 > div {
+	padding: 0;
+}
+
+.bulk_mover {
+	margin-bottom: 5px;
+}
+
+.ta_title {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.sidebar-icons {
+	width: 15%;
+}
+
+#getting-started {
+	font-size: 20px;
+	padding:5px;
+	margin-top:5px;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1031;
+}
+
+#target_lists .pending_target {
+	/*padding: 10px;
+	padding-bottom: 20px;*/
+	background-color: rgba(224, 224, 224, 0.5);
+	cursor: wait;
+	
+/*    -khtml-opacity: 0.6;
+      -moz-opacity: 0.6;
+	    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+           opacity: 0.6;
+            filter: alpha(opacity=60);*/
+}
+
+#target_lists .pending_target > div:nth-child(1),
+#target_lists .pending_target > div:nth-child(2) {
+  -khtml-opacity: 0.6;
+    -moz-opacity: 0.6;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+         opacity: 0.6;
+          filter: alpha(opacity=60);
+}
+
+.pending_watch {
+	top: 5px;
+	font-size: 20px;
+}
+
+/* CSS */
+/* loader */
+.main_loader {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  background: rgba(0,0,0,0.5);
+  top: 0;
+  cursor: wait;
+}
+
+.loader {
+  display: none;
+  color: white;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  position: absolute;
+  box-sizing: border-box;
+  text-align: center;
+  z-index: 99999999;
+  text-transform: uppercase;
+  left: 50%;
+  top: 50%;
+  margin-left: -75px;
+  margin-top: -75px;
+}
+
+.loader:before,
+.loader:after {
+  opacity: 0;
+  box-sizing: border-box;
+  content: "\0020";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  border: 5px solid white;
+  box-shadow: 0 0 50px white, inset 0 0 50px #000;
+}
+
+/* Add browser specific like -moz, etc.. -webkit plng ni hahaha */
+
+.loader:after {
+  z-index: 1;
+  -webkit-animation: gogoloader 2s infinite 1s;
+  -moz-animation: gogoloader 2s infinite 1s;
+  -o-animation: gogoloader 2s infinite 1s;
+  -ms-animation: gogoloader 2s infinite 1s;
+}
+
+.loader:before {
+  z-index: 2;
+  -webkit-animation: gogoloader 2s infinite;
+  -moz-animation: gogoloader 2s infinite;
+  -o-animation: gogoloader 2s infinite;
+  -ms-animation: gogoloader 2s infinite;
+}
+
+@-webkit-keyframes gogoloader {
+  0% {
+    -webkit-transform: scale( 0 );
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes gogoloader {
+  0% {
+    -moz-transform: scale( 0 );
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@-o-keyframes gogoloader {
+  0% {
+    -o-transform: scale( 0 );
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -o-transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes gogoloader {
+  0% {
+    -ms-transform: scale( 0 );
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -ms-transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes gogoloader {
+  0% {
+    transform: scale( 0 );
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.ui-dialog { z-index: 10000 !important ;}
